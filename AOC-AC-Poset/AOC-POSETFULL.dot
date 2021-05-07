@@ -1,0 +1,396 @@
+digraph G { 
+	rankdir=BT;
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 1, E: 38)|***Accuracy = Exact\n|***INSTANT\n***FUFP-Tree\n***Pre-FUFP\n***FUP-HU\n***Pre-HUI\n***HUPID\n***HUI-LIST-INS\n***GENHUI\n***LIHUP\n***IMHAUI\n***MPM\n***PIHUP\n***IIHUM\n***Moment\n***DSTree\n***CFI-Stream\n***THUI-Mine\n***MHUI\n***SWIM\n***NewMoment\n***CPS-tree\n***IHUP\n***MFI-TransSw\n***MFI-TimeSW\n***Clostream\n***SUF-Growth\n***VSW\n***LDS\n***MAX-FISM\n***StreamFCI\n***Tmoment\n***FEMP\n***UDS-FIM\n***SHU-Growth\n***SHAU\n***PFIMoS\n***ConPatSet\n***RMFIsM\n}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 1, E: 35)|***Citation=Moyen[21-200]\n|***DSM-FI\n***INSTANT\n***Pre-FUFP\n***estMax\n***CLICI\n***TUF-Streaming\n***GUIDE\n***FUP-HU\n***UHS-Stream\n***TFUHS-Stream\n***Pre-HUI\n***HUPID\n***HUI-LIST-INS\n***GENHUI\n***TDUP\n***LIHUP\n***MPM\n***SWM\n***PFP\n***CFI-Stream\n***THUI-Mine\n***MHUI\n***SWIM\n***Inemine\n***NewMoment\n***CPS-tree\n***UF-Streaming\n***Clostream\n***SUF-Growth\n***VSW\n***SWP-Tree\n***LDS\n***MAX-FISM\n***Tmoment\n***SHU-Growth\n}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 1, E: 27)|***Window=FsW/TransSW\n|***IIHUM\n***Moment\n***PFP\n***DSTree\n***CFI-Stream\n***THUI-Mine\n***MHUI\n***Inemine\n***NewMoment\n***CPS-tree\n***IHUP\n***Clostream\n***FCDT\n***VSW\n***SWP-Tree\n***LDS\n***MAX-FISM\n***StreamFCI\n***Tmoment\n***pWIn\n***FEMP\n***UDS-FIM\n***SHU-Growth\n***SHAU\n***PFIMoS\n***ConPatSet\n***RMFIsM\n}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 1, E: 25)|***Year= 2009/2013\n|***Pre-FUFP\n***estMax\n***CLICI\n***TUF-Streaming\n***GUIDE\n***FUP-HU\n***UHS-Stream\n***TFUHS-Stream\n***NewMoment\n***CPS-tree\n***IHUP\n***MFI-TransSw\n***MFI-TimeSW\n***UF-Streaming\n***Clostream\n***SUF-Growth\n***FCDT\n***VSW\n***SWP-Tree\n***LDS\n***MAX-FISM\n***StreamFCI\n***Tmoment\n***pWIn\n***FEMP\n}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 1, E: 24)|***Approach=FP-Growth\n|***FP-Stream\n***TUF-Streaming\n***UHS-Stream\n***TFUHS-Stream\n***HUPID\n***GENHUI\n***FCIMining\n***IMHAUI\n***MPM\n***Moment\n***DSTree\n***CFI-Stream\n***NewMoment\n***CPS-tree\n***IHUP\n***UF-Streaming\n***Clostream\n***SWP-Tree\n***StreamFCI\n***Tmoment\n***UDS-FIM\n***SHU-Growth\n***SHAU\n***PFIMoS\n}"];
+6 [shape=record,style=filled,fillcolor=lightblue,label="{6 (I: 1, E: 20)|***FWK/Pattern=Support (FI)\n|***Lossy Counting\n***FP-Stream\n***estDec\n***FDPM\n***DSM-FI\n***FUFP-Tree\n***Pre-FUFP\n***TDUP\n***SWM\n***PFP\n***DSTree\n***SWIM\n***CPS-tree\n***MFI-TransSw\n***MFI-TimeSW\n***SUF-Growth\n***VSW\n***SWP-Tree\n***LDS\n***pWIn\n}"];
+7 [shape=record,style=filled,label="{7 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***CPS-tree\n}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 1, E: 19)|***Approach=Apriori\n|***Lossy Counting\n***estDec\n***FDPM\n***DSM-FI\n***INSTANT\n***FUFP-Tree\n***Pre-FUFP\n***estMax\n***FUP-HU\n***Pre-HUI\n***TDUP\n***PIHUP\n***SWM\n***THUI-Mine\n***Inemine\n***FCDT\n***MAX-FISM\n***pWIn\n***ConPatSet\n}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{9 (I: 1, E: 17)|***Window=Landmark\n|***Lossy Counting\n***estDec\n***FDPM\n***DSM-FI\n***INSTANT\n***FUFP-Tree\n***TUF-Streaming\n***GUIDE\n***FUP-HU\n***TFUHS-Stream\n***Pre-HUI\n***HUPID\n***FCIMining\n***TDUP\n***LIHUP\n***MPM\n***PIHUP\n}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 1, E: 16)|***Year=2002/2008\n|***Lossy Counting\n***FP-Stream\n***estDec\n***FDPM\n***DSM-FI\n***INSTANT\n***FUFP-Tree\n***Moment\n***SWM\n***PFP\n***DSTree\n***CFI-Stream\n***THUI-Mine\n***MHUI\n***SWIM\n***Inemine\n}"];
+11 [shape=record,style=filled,fillcolor=lightblue,label="{11 (I: 1, E: 16)|***Accuracy = False-Positive\n|***Lossy Counting\n***FP-Stream\n***estDec\n***DSM-FI\n***estMax\n***CLICI\n***TUF-Streaming\n***UHS-Stream\n***TFUHS-Stream\n***FCIMining\n***TDUP\n***SWM\n***Inemine\n***UF-Streaming\n***FCDT\n***SWP-Tree\n}"];
+12 [shape=record,style=filled,label="{12 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***DSM-FI\n}"];
+13 [shape=record,style=filled,label="{13 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***SWP-Tree\n}"];
+14 [shape=record,style=filled,fillcolor=lightblue,label="{14 (I: 1, E: 15)|***Year=2014/2018\n|***Pre-HUI\n***HUPID\n***HUI-LIST-INS\n***GENHUI\n***FCIMining\n***TDUP\n***LIHUP\n***IMHAUI\n***MPM\n***PIHUP\n***UDS-FIM\n***SHU-Growth\n***SHAU\n***PFIMoS\n***ConPatSet\n}"];
+15 [shape=record,style=filled,label="{15 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***TDUP\n}"];
+16 [shape=record,style=filled,fillcolor=lightblue,label="{16 (I: 1, E: 13)|***FWK/Pattern=Utility (HUI)\n|***GUIDE\n***FUP-HU\n***Pre-HUI\n***HUPID\n***HUI-LIST-INS\n***GENHUI\n***LIHUP\n***PIHUP\n***IIHUM\n***THUI-Mine\n***MHUI\n***IHUP\n***SHU-Growth\n}"];
+17 [shape=record,style=filled,label="{17 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Utility (HUI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***FUP-HU\n}"];
+18 [shape=record,style=filled,label="{18 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***Pre-HUI\n}"];
+19 [shape=record,style=filled,label="{19 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=FP-Growth\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***HUPID\n}"];
+20 [shape=record,style=filled,label="{20 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Utility (HUI)\n***Approach=Apriori\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***THUI-Mine\n}"];
+21 [shape=record,style=filled,label="{21 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***SHU-Growth\n}"];
+22 [shape=record,style=filled,fillcolor=lightblue,label="{22 (I: 1, E: 10)|***FWK/Pattern=Support (CI)\n|***CLICI\n***FCIMining\n***Moment\n***CFI-Stream\n***Inemine\n***NewMoment\n***FCDT\n***StreamFCI\n***Tmoment\n***ConPatSet\n}"];
+23 [shape=record,style=filled,label="{23 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (CI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***CFI-Stream\n}"];
+24 [shape=record,style=filled,label="{24 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (CI)\n***Approach=Apriori\n***Window=FsW/TransSW\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***Inemine\n}"];
+25 [shape=record,style=filled,fillcolor=orange,label="{25 (I: 6, E: 2)|***Year= 2009/2013\n***FWK/Pattern=Support (CI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***NewMoment\n***Tmoment\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 1, E: 9)|***Citation=Bas [11-20]\n|***FCIMining\n***IMHAUI\n***PIHUP\n***IIHUM\n***FCDT\n***StreamFCI\n***pWIn\n***SHAU\n***PFIMoS\n}"];
+27 [shape=record,style=filled,label="{27 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Support (CI)\n***Approach=FP-Growth\n***Window=Landmark\n***Accuracy = False-Positive\n***Citation=Bas [11-20]\n|***FCIMining\n}"];
+28 [shape=record,style=filled,label="{28 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Bas [11-20]\n|***PIHUP\n}"];
+29 [shape=record,style=filled,label="{29 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (CI)\n***Approach=Apriori\n***Window=FsW/TransSW\n***Accuracy = False-Positive\n***Citation=Bas [11-20]\n|***FCDT\n}"];
+30 [shape=record,style=filled,label="{30 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (CI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Bas [11-20]\n|***StreamFCI\n}"];
+31 [shape=record,style=filled,fillcolor=lightblue,label="{31 (I: 1, E: 8)|***Approach=Other\n|***CLICI\n***GUIDE\n***PFP\n***SWIM\n***SUF-Growth\n***VSW\n***FEMP\n***RMFIsM\n}"];
+32 [shape=record,style=filled,label="{32 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Other\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***VSW\n}"];
+33 [shape=record,style=filled,fillcolor=lightblue,label="{33 (I: 2, E: 7)|***Approach=Hybrid\n***Accuracy = Exact\n|***HUI-LIST-INS\n***LIHUP\n***IIHUM\n***MHUI\n***MFI-TransSw\n***MFI-TimeSW\n***LDS\n}"];
+34 [shape=record,style=filled,label="{34 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=Hybrid\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***LIHUP\n}"];
+35 [shape=record,style=filled,label="{35 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Utility (HUI)\n***Approach=Hybrid\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***MHUI\n}"];
+36 [shape=record,style=filled,label="{36 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Hybrid\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***LDS\n}"];
+37 [shape=record,style=filled,fillcolor=lightblue,label="{37 (I: 1, E: 7)|***Window=Decay\n|***Pre-FUFP\n***estMax\n***CLICI\n***UHS-Stream\n***HUI-LIST-INS\n***GENHUI\n***IMHAUI\n}"];
+38 [shape=record,style=filled,label="{38 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Decay\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***Pre-FUFP\n}"];
+39 [shape=record,style=filled,label="{39 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (CI)\n***Approach=Other\n***Window=Decay\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***CLICI\n}"];
+40 [shape=record,style=filled,label="{40 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=Hybrid\n***Window=Decay\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***HUI-LIST-INS\n}"];
+41 [shape=record,style=filled,label="{41 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HUI)\n***Approach=FP-Growth\n***Window=Decay\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***GENHUI\n}"];
+42 [shape=record,style=filled,fillcolor=lightblue,label="{42 (I: 1, E: 7)|***Citation=Haut [201-500]\n|***estDec\n***FDPM\n***FUFP-Tree\n***Moment\n***DSTree\n***MFI-TransSw\n***MFI-TimeSW\n}"];
+43 [shape=record,style=filled,label="{43 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = False-Positive\n***Citation=Haut [201-500]\n|***estDec\n}"];
+44 [shape=record,style=filled,label="{44 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Haut [201-500]\n|***FUFP-Tree\n}"];
+45 [shape=record,style=filled,label="{45 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (CI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Haut [201-500]\n|***Moment\n}"];
+46 [shape=record,style=filled,label="{46 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Haut [201-500]\n|***DSTree\n}"];
+47 [shape=record,style=filled,fillcolor=lightblue,label="{47 (I: 2, E: 6)|***FWK/Pattern=Uncertain (EFI)\n***Approach=FP-Growth\n|***TUF-Streaming\n***UHS-Stream\n***TFUHS-Stream\n***UF-Streaming\n***Clostream\n***UDS-FIM\n}"];
+48 [shape=record,style=filled,fillcolor=orange,label="{48 (I: 6, E: 2)|***Year= 2009/2013\n***FWK/Pattern=Uncertain (EFI)\n***Approach=FP-Growth\n***Window=Landmark\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***TUF-Streaming\n***TFUHS-Stream\n}"];
+49 [shape=record,style=filled,label="{49 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Uncertain (EFI)\n***Approach=FP-Growth\n***Window=Decay\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***UHS-Stream\n}"];
+50 [shape=record,style=filled,label="{50 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Uncertain (EFI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***Clostream\n}"];
+51 [shape=record,style=filled,fillcolor=lightblue,label="{51 (I: 1, E: 4)|***FWK/Pattern=Support (MFI)\n|***INSTANT\n***estMax\n***MAX-FISM\n***RMFIsM\n}"];
+52 [shape=record,style=filled,label="{52 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (MFI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***INSTANT\n}"];
+53 [shape=record,style=filled,label="{53 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (MFI)\n***Approach=Apriori\n***Window=Decay\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***estMax\n}"];
+54 [shape=record,style=filled,label="{54 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (MFI)\n***Approach=Apriori\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***MAX-FISM\n}"];
+55 [shape=record,style=filled,fillcolor=lightblue,label="{55 (I: 3, E: 4)|***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Très bas [0-10]\n|***FEMP\n***UDS-FIM\n***ConPatSet\n***RMFIsM\n}"];
+56 [shape=record,style=filled,label="{56 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Uncertain (EFI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Très bas [0-10]\n|***UDS-FIM\n}"];
+57 [shape=record,style=filled,label="{57 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Support (CI)\n***Approach=Apriori\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Très bas [0-10]\n|***ConPatSet\n}"];
+58 [shape=record,style=filled,fillcolor=lightblue,label="{58 (I: 4, E: 3)|***Year=2014/2018\n***FWK/Pattern=Utility (HAUI)\n***Approach=FP-Growth\n***Accuracy = Exact\n|***IMHAUI\n***MPM\n***SHAU\n}"];
+59 [shape=record,style=filled,label="{59 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HAUI)\n***Approach=FP-Growth\n***Window=Decay\n***Accuracy = Exact\n***Citation=Bas [11-20]\n|***IMHAUI\n}"];
+60 [shape=record,style=filled,label="{60 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HAUI)\n***Approach=FP-Growth\n***Window=Landmark\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***MPM\n}"];
+61 [shape=record,style=filled,label="{61 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Utility (HAUI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Bas [11-20]\n|***SHAU\n}"];
+62 [shape=record,style=filled,fillcolor=lightblue,label="{62 (I: 2, E: 3)|***FWK/Pattern=Support (FI)\n***Window=FsW/TimeSW\n|***SWM\n***SWIM\n***MFI-TransSw\n}"];
+63 [shape=record,style=filled,label="{63 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=FsW/TimeSW\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***SWM\n}"];
+64 [shape=record,style=filled,label="{64 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Other\n***Window=FsW/TimeSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***SWIM\n}"];
+65 [shape=record,style=filled,label="{65 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Hybrid\n***Window=FsW/TimeSW\n***Accuracy = Exact\n***Citation=Haut [201-500]\n|***MFI-TransSw\n}"];
+66 [shape=record,style=filled,fillcolor=lightblue,label="{66 (I: 2, E: 3)|***Year= 2009/2013\n***Window=VsW/TransSW\n|***MFI-TimeSW\n***UF-Streaming\n***SUF-Growth\n}"];
+67 [shape=record,style=filled,label="{67 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Hybrid\n***Window=VsW/TransSW\n***Accuracy = Exact\n***Citation=Haut [201-500]\n|***MFI-TimeSW\n}"];
+68 [shape=record,style=filled,label="{68 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Uncertain (EFI)\n***Approach=FP-Growth\n***Window=VsW/TransSW\n***Accuracy = False-Positive\n***Citation=Moyen[21-200]\n|***UF-Streaming\n}"];
+69 [shape=record,style=filled,label="{69 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Other\n***Window=VsW/TransSW\n***Accuracy = Exact\n***Citation=Moyen[21-200]\n|***SUF-Growth\n}"];
+70 [shape=record,style=filled,fillcolor=lightblue,label="{70 (I: 1, E: 3)|***Accuracy = Approximative\n|***GUIDE\n***PFP\n***pWIn\n}"];
+71 [shape=record,style=filled,label="{71 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Utility (HUI)\n***Approach=Other\n***Window=Landmark\n***Accuracy = Approximative\n***Citation=Moyen[21-200]\n|***GUIDE\n}"];
+72 [shape=record,style=filled,label="{72 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Other\n***Window=FsW/TransSW\n***Accuracy = Approximative\n***Citation=Moyen[21-200]\n|***PFP\n}"];
+73 [shape=record,style=filled,label="{73 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=FsW/TransSW\n***Accuracy = Approximative\n***Citation=Bas [11-20]\n|***pWIn\n}"];
+74 [shape=record,style=filled,fillcolor=lightblue,label="{74 (I: 1, E: 3)|***Citation=Très haut  R 500\n|***Lossy Counting\n***FP-Stream\n***IHUP\n}"];
+75 [shape=record,style=filled,label="{75 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = False-Positive\n***Citation=Très haut  R 500\n|***Lossy Counting\n}"];
+76 [shape=record,style=filled,label="{76 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Utility (HUI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Très haut  R 500\n|***IHUP\n}"];
+77 [shape=record,style=filled,fillcolor=lightblue,label="{77 (I: 3, E: 2)|***Year=2019/2023\n***Window=FsW/TransSW\n***Accuracy = Exact\n|***IIHUM\n***RMFIsM\n}"];
+78 [shape=record,style=filled,label="{78 (I: 6, E: 1)|***Year=2019/2023\n***FWK/Pattern=Utility (HUI)\n***Approach=Hybrid\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Bas [11-20]\n|***IIHUM\n}"];
+79 [shape=record,style=filled,label="{79 (I: 6, E: 1)|***Year=2019/2023\n***FWK/Pattern=Support (MFI)\n***Approach=Other\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Très bas [0-10]\n|***RMFIsM\n}"];
+80 [shape=record,style=filled,fillcolor=lightblue,label="{80 (I: 3, E: 2)|***FWK/Pattern=Uncertain (PFI)\n***Window=FsW/TransSW\n***Accuracy = Exact\n|***FEMP\n***PFIMoS\n}"];
+81 [shape=record,style=filled,label="{81 (I: 6, E: 1)|***Year= 2009/2013\n***FWK/Pattern=Uncertain (PFI)\n***Approach=Other\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Très bas [0-10]\n|***FEMP\n}"];
+82 [shape=record,style=filled,label="{82 (I: 6, E: 1)|***Year=2014/2018\n***FWK/Pattern=Uncertain (PFI)\n***Approach=FP-Growth\n***Window=FsW/TransSW\n***Accuracy = Exact\n***Citation=Bas [11-20]\n|***PFIMoS\n}"];
+83 [shape=record,style=filled,label="{83 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=FP-Growth\nWindow=Titled\n***Accuracy = False-Positive\n***Citation=Très haut  R 500\n|***FP-Stream\n}"];
+84 [shape=record,style=filled,label="{84 (I: 6, E: 1)|***Year=2002/2008\n***FWK/Pattern=Support (FI)\n***Approach=Apriori\n***Window=Landmark\n***Accuracy = False-Negative\n***Citation=Haut [201-500]\n|***FDPM\n}"];
+	7 -> 1
+	7 -> 2
+	7 -> 3
+	7 -> 4
+	7 -> 5
+	7 -> 6
+	12 -> 2
+	12 -> 6
+	12 -> 8
+	12 -> 9
+	12 -> 10
+	12 -> 11
+	13 -> 2
+	13 -> 3
+	13 -> 4
+	13 -> 5
+	13 -> 6
+	13 -> 11
+	15 -> 2
+	15 -> 6
+	15 -> 8
+	15 -> 9
+	15 -> 11
+	15 -> 14
+	17 -> 1
+	17 -> 2
+	17 -> 4
+	17 -> 8
+	17 -> 9
+	17 -> 16
+	18 -> 1
+	18 -> 2
+	18 -> 8
+	18 -> 9
+	18 -> 14
+	18 -> 16
+	19 -> 1
+	19 -> 2
+	19 -> 5
+	19 -> 9
+	19 -> 14
+	19 -> 16
+	20 -> 1
+	20 -> 2
+	20 -> 3
+	20 -> 8
+	20 -> 10
+	20 -> 16
+	21 -> 1
+	21 -> 2
+	21 -> 3
+	21 -> 5
+	21 -> 14
+	21 -> 16
+	23 -> 1
+	23 -> 2
+	23 -> 3
+	23 -> 5
+	23 -> 10
+	23 -> 22
+	24 -> 2
+	24 -> 3
+	24 -> 8
+	24 -> 10
+	24 -> 11
+	24 -> 22
+	25 -> 1
+	25 -> 2
+	25 -> 3
+	25 -> 4
+	25 -> 5
+	25 -> 22
+	27 -> 5
+	27 -> 9
+	27 -> 11
+	27 -> 14
+	27 -> 22
+	27 -> 26
+	28 -> 1
+	28 -> 8
+	28 -> 9
+	28 -> 14
+	28 -> 16
+	28 -> 26
+	29 -> 3
+	29 -> 4
+	29 -> 8
+	29 -> 11
+	29 -> 22
+	29 -> 26
+	30 -> 1
+	30 -> 3
+	30 -> 4
+	30 -> 5
+	30 -> 22
+	30 -> 26
+	32 -> 1
+	32 -> 2
+	32 -> 3
+	32 -> 4
+	32 -> 6
+	32 -> 31
+	33 -> 1
+	34 -> 2
+	34 -> 9
+	34 -> 14
+	34 -> 16
+	34 -> 33
+	35 -> 2
+	35 -> 3
+	35 -> 10
+	35 -> 16
+	35 -> 33
+	36 -> 2
+	36 -> 3
+	36 -> 4
+	36 -> 6
+	36 -> 33
+	38 -> 1
+	38 -> 2
+	38 -> 4
+	38 -> 6
+	38 -> 8
+	38 -> 37
+	39 -> 2
+	39 -> 4
+	39 -> 11
+	39 -> 22
+	39 -> 31
+	39 -> 37
+	40 -> 2
+	40 -> 14
+	40 -> 16
+	40 -> 33
+	40 -> 37
+	41 -> 1
+	41 -> 2
+	41 -> 5
+	41 -> 14
+	41 -> 16
+	41 -> 37
+	43 -> 6
+	43 -> 8
+	43 -> 9
+	43 -> 10
+	43 -> 11
+	43 -> 42
+	44 -> 1
+	44 -> 6
+	44 -> 8
+	44 -> 9
+	44 -> 10
+	44 -> 42
+	45 -> 1
+	45 -> 3
+	45 -> 5
+	45 -> 10
+	45 -> 22
+	45 -> 42
+	46 -> 1
+	46 -> 3
+	46 -> 5
+	46 -> 6
+	46 -> 10
+	46 -> 42
+	47 -> 5
+	48 -> 2
+	48 -> 4
+	48 -> 9
+	48 -> 11
+	48 -> 47
+	49 -> 2
+	49 -> 4
+	49 -> 11
+	49 -> 37
+	49 -> 47
+	50 -> 1
+	50 -> 2
+	50 -> 3
+	50 -> 4
+	50 -> 47
+	52 -> 1
+	52 -> 2
+	52 -> 8
+	52 -> 9
+	52 -> 10
+	52 -> 51
+	53 -> 2
+	53 -> 4
+	53 -> 8
+	53 -> 11
+	53 -> 37
+	53 -> 51
+	54 -> 1
+	54 -> 2
+	54 -> 3
+	54 -> 4
+	54 -> 8
+	54 -> 51
+	55 -> 1
+	55 -> 3
+	56 -> 14
+	56 -> 47
+	56 -> 55
+	57 -> 8
+	57 -> 14
+	57 -> 22
+	57 -> 55
+	58 -> 1
+	58 -> 5
+	58 -> 14
+	59 -> 26
+	59 -> 37
+	59 -> 58
+	60 -> 2
+	60 -> 9
+	60 -> 58
+	61 -> 3
+	61 -> 26
+	61 -> 58
+	62 -> 6
+	63 -> 2
+	63 -> 8
+	63 -> 10
+	63 -> 11
+	63 -> 62
+	64 -> 1
+	64 -> 2
+	64 -> 10
+	64 -> 31
+	64 -> 62
+	65 -> 4
+	65 -> 33
+	65 -> 42
+	65 -> 62
+	66 -> 4
+	67 -> 6
+	67 -> 33
+	67 -> 42
+	67 -> 66
+	68 -> 2
+	68 -> 11
+	68 -> 47
+	68 -> 66
+	69 -> 1
+	69 -> 2
+	69 -> 6
+	69 -> 31
+	69 -> 66
+	71 -> 2
+	71 -> 4
+	71 -> 9
+	71 -> 16
+	71 -> 31
+	71 -> 70
+	72 -> 2
+	72 -> 3
+	72 -> 6
+	72 -> 10
+	72 -> 31
+	72 -> 70
+	73 -> 3
+	73 -> 4
+	73 -> 6
+	73 -> 8
+	73 -> 26
+	73 -> 70
+	75 -> 6
+	75 -> 8
+	75 -> 9
+	75 -> 10
+	75 -> 11
+	75 -> 74
+	76 -> 1
+	76 -> 3
+	76 -> 4
+	76 -> 5
+	76 -> 16
+	76 -> 74
+	77 -> 1
+	77 -> 3
+	78 -> 16
+	78 -> 26
+	78 -> 33
+	78 -> 77
+	79 -> 31
+	79 -> 51
+	79 -> 55
+	79 -> 77
+	80 -> 1
+	80 -> 3
+	81 -> 4
+	81 -> 31
+	81 -> 55
+	81 -> 80
+	82 -> 5
+	82 -> 14
+	82 -> 26
+	82 -> 80
+	83 -> 5
+	83 -> 6
+	83 -> 10
+	83 -> 11
+	83 -> 74
+	84 -> 6
+	84 -> 8
+	84 -> 9
+	84 -> 10
+	84 -> 42
+}

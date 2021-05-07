@@ -1,0 +1,1357 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 58)||Lossy Counting\nFP-Stream\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nPre-FUFP\nestMax\nCLICI\nTUF-Streaming\nGUIDE\nFUP-HU\nUHS-Stream\nTFUHS-Stream\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nFCIMining\nTDUP\nLIHUP\nIMHAUI\nMPM\nPIHUP\nIIHUM\nMoment\nSWM\nPFP\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nInemine\nNewMoment\nCPS-tree\nIHUP\nMFI-TransSw\nMFI-TimeSW\nUF-Streaming\nClostream\nSUF-Growth\nFCDT\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nStreamFCI\nTmoment\npWIn\nFEMP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\nRMFIsM\n}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 0, E: 16)||Lossy Counting\nFP-Stream\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nMoment\nSWM\nPFP\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nInemine\n}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 0, E: 0)||}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 0, E: 25)||Pre-FUFP\nestMax\nCLICI\nTUF-Streaming\nGUIDE\nFUP-HU\nUHS-Stream\nTFUHS-Stream\nNewMoment\nCPS-tree\nIHUP\nMFI-TransSw\nMFI-TimeSW\nUF-Streaming\nClostream\nSUF-Growth\nFCDT\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nStreamFCI\nTmoment\npWIn\nFEMP\n}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 0, E: 15)||Pre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nFCIMining\nTDUP\nLIHUP\nIMHAUI\nMPM\nPIHUP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\n}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 0, E: 2)||IIHUM\nRMFIsM\n}"];
+6 [shape=record,style=filled,fillcolor=lightblue,label="{6 (I: 0, E: 3)||Moment\nCFI-Stream\nInemine\n}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{7 (I: 0, E: 5)||CLICI\nNewMoment\nFCDT\nStreamFCI\nTmoment\n}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 0, E: 2)||FCIMining\nConPatSet\n}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{9 (I: 0, E: 10)||CLICI\nFCIMining\nMoment\nCFI-Stream\nInemine\nNewMoment\nFCDT\nStreamFCI\nTmoment\nConPatSet\n}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 0, E: 10)||Lossy Counting\nFP-Stream\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\nSWM\nPFP\nDSTree\nSWIM\n}"];
+11 [shape=record,style=filled,fillcolor=lightblue,label="{11 (I: 0, E: 9)||Pre-FUFP\nCPS-tree\nMFI-TransSw\nMFI-TimeSW\nSUF-Growth\nVSW\nSWP-Tree\nLDS\npWIn\n}"];
+12 [shape=record,style=filled,label="{12 (I: 0, E: 1)||TDUP\n}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 0, E: 20)||Lossy Counting\nFP-Stream\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\nPre-FUFP\nTDUP\nSWM\nPFP\nDSTree\nSWIM\nCPS-tree\nMFI-TransSw\nMFI-TimeSW\nSUF-Growth\nVSW\nSWP-Tree\nLDS\npWIn\n}"];
+14 [shape=record,style=filled,label="{14 (I: 0, E: 1)||INSTANT\n}"];
+15 [shape=record,style=filled,fillcolor=lightblue,label="{15 (I: 0, E: 2)||estMax\nMAX-FISM\n}"];
+16 [shape=record,style=filled,label="{16 (I: 0, E: 1)||RMFIsM\n}"];
+17 [shape=record,style=filled,fillcolor=lightblue,label="{17 (I: 0, E: 4)||INSTANT\nestMax\nMAX-FISM\nRMFIsM\n}"];
+18 [shape=record,style=filled,fillcolor=lightblue,label="{18 (I: 0, E: 5)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nUF-Streaming\nClostream\n}"];
+19 [shape=record,style=filled,label="{19 (I: 0, E: 1)||UDS-FIM\n}"];
+20 [shape=record,style=filled,fillcolor=lightblue,label="{20 (I: 0, E: 6)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nUF-Streaming\nClostream\nUDS-FIM\n}"];
+21 [shape=record,style=filled,label="{21 (I: 0, E: 1)||FEMP\n}"];
+22 [shape=record,style=filled,label="{22 (I: 0, E: 1)||PFIMoS\n}"];
+23 [shape=record,style=filled,fillcolor=lightblue,label="{23 (I: 0, E: 2)||FEMP\nPFIMoS\n}"];
+24 [shape=record,style=filled,fillcolor=lightblue,label="{24 (I: 0, E: 3)||IMHAUI\nMPM\nSHAU\n}"];
+25 [shape=record,style=filled,fillcolor=lightblue,label="{25 (I: 0, E: 2)||THUI-Mine\nMHUI\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 0, E: 3)||GUIDE\nFUP-HU\nIHUP\n}"];
+27 [shape=record,style=filled,fillcolor=lightblue,label="{27 (I: 0, E: 7)||Pre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nPIHUP\nSHU-Growth\n}"];
+28 [shape=record,style=filled,label="{28 (I: 0, E: 1)||IIHUM\n}"];
+29 [shape=record,style=filled,fillcolor=lightblue,label="{29 (I: 0, E: 13)||GUIDE\nFUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nPIHUP\nIIHUM\nTHUI-Mine\nMHUI\nIHUP\nSHU-Growth\n}"];
+30 [shape=record,style=filled,label="{30 (I: 0, E: 1)||Inemine\n}"];
+31 [shape=record,style=filled,fillcolor=lightblue,label="{31 (I: 0, E: 6)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\nSWM\n}"];
+32 [shape=record,style=filled,label="{32 (I: 0, E: 1)||THUI-Mine\n}"];
+33 [shape=record,style=filled,fillcolor=lightblue,label="{33 (I: 0, E: 9)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nSWM\nTHUI-Mine\nInemine\n}"];
+34 [shape=record,style=filled,label="{34 (I: 0, E: 1)||FCDT\n}"];
+35 [shape=record,style=filled,fillcolor=lightblue,label="{35 (I: 0, E: 2)||Pre-FUFP\npWIn\n}"];
+36 [shape=record,style=filled,label="{36 (I: 0, E: 1)||FUP-HU\n}"];
+37 [shape=record,style=filled,fillcolor=lightblue,label="{37 (I: 0, E: 6)||Pre-FUFP\nestMax\nFUP-HU\nFCDT\nMAX-FISM\npWIn\n}"];
+38 [shape=record,style=filled,label="{38 (I: 0, E: 1)||ConPatSet\n}"];
+39 [shape=record,style=filled,fillcolor=lightblue,label="{39 (I: 0, E: 2)||Pre-HUI\nPIHUP\n}"];
+40 [shape=record,style=filled,fillcolor=lightblue,label="{40 (I: 0, E: 4)||Pre-HUI\nTDUP\nPIHUP\nConPatSet\n}"];
+41 [shape=record,style=filled,fillcolor=lightblue,label="{41 (I: 0, E: 3)||Inemine\nFCDT\nConPatSet\n}"];
+42 [shape=record,style=filled,fillcolor=lightblue,label="{42 (I: 0, E: 9)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\nPre-FUFP\nTDUP\nSWM\npWIn\n}"];
+43 [shape=record,style=filled,fillcolor=lightblue,label="{43 (I: 0, E: 3)||INSTANT\nestMax\nMAX-FISM\n}"];
+44 [shape=record,style=filled,fillcolor=lightblue,label="{44 (I: 0, E: 4)||FUP-HU\nPre-HUI\nPIHUP\nTHUI-Mine\n}"];
+45 [shape=record,style=filled,fillcolor=lightblue,label="{45 (I: 0, E: 19)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nPre-FUFP\nestMax\nFUP-HU\nPre-HUI\nTDUP\nPIHUP\nSWM\nTHUI-Mine\nInemine\nFCDT\nMAX-FISM\npWIn\nConPatSet\n}"];
+46 [shape=record,style=filled,fillcolor=lightblue,label="{46 (I: 0, E: 2)||Moment\nCFI-Stream\n}"];
+47 [shape=record,style=filled,fillcolor=lightblue,label="{47 (I: 0, E: 2)||FP-Stream\nDSTree\n}"];
+48 [shape=record,style=filled,fillcolor=lightblue,label="{48 (I: 0, E: 4)||FP-Stream\nMoment\nDSTree\nCFI-Stream\n}"];
+49 [shape=record,style=filled,fillcolor=lightblue,label="{49 (I: 0, E: 3)||NewMoment\nStreamFCI\nTmoment\n}"];
+50 [shape=record,style=filled,fillcolor=lightblue,label="{50 (I: 0, E: 2)||CPS-tree\nSWP-Tree\n}"];
+51 [shape=record,style=filled,label="{51 (I: 0, E: 1)||IHUP\n}"];
+52 [shape=record,style=filled,fillcolor=lightblue,label="{52 (I: 0, E: 11)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nNewMoment\nCPS-tree\nIHUP\nUF-Streaming\nClostream\nSWP-Tree\nStreamFCI\nTmoment\n}"];
+53 [shape=record,style=filled,label="{53 (I: 0, E: 1)||FCIMining\n}"];
+54 [shape=record,style=filled,fillcolor=lightblue,label="{54 (I: 0, E: 3)||HUPID\nGENHUI\nSHU-Growth\n}"];
+55 [shape=record,style=filled,fillcolor=lightblue,label="{55 (I: 0, E: 9)||HUPID\nGENHUI\nFCIMining\nIMHAUI\nMPM\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+56 [shape=record,style=filled,fillcolor=lightblue,label="{56 (I: 0, E: 6)||FCIMining\nMoment\nCFI-Stream\nNewMoment\nStreamFCI\nTmoment\n}"];
+57 [shape=record,style=filled,fillcolor=lightblue,label="{57 (I: 0, E: 4)||FP-Stream\nDSTree\nCPS-tree\nSWP-Tree\n}"];
+58 [shape=record,style=filled,fillcolor=lightblue,label="{58 (I: 0, E: 4)||HUPID\nGENHUI\nIHUP\nSHU-Growth\n}"];
+59 [shape=record,style=filled,fillcolor=lightblue,label="{59 (I: 0, E: 24)||FP-Stream\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nHUPID\nGENHUI\nFCIMining\nIMHAUI\nMPM\nMoment\nDSTree\nCFI-Stream\nNewMoment\nCPS-tree\nIHUP\nUF-Streaming\nClostream\nSWP-Tree\nStreamFCI\nTmoment\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+60 [shape=record,style=filled,label="{60 (I: 0, E: 1)||MHUI\n}"];
+61 [shape=record,style=filled,fillcolor=lightblue,label="{61 (I: 0, E: 3)||MFI-TransSw\nMFI-TimeSW\nLDS\n}"];
+62 [shape=record,style=filled,fillcolor=lightblue,label="{62 (I: 0, E: 2)||HUI-LIST-INS\nLIHUP\n}"];
+63 [shape=record,style=filled,fillcolor=lightblue,label="{63 (I: 0, E: 4)||HUI-LIST-INS\nLIHUP\nIIHUM\nMHUI\n}"];
+64 [shape=record,style=filled,fillcolor=lightblue,label="{64 (I: 0, E: 7)||HUI-LIST-INS\nLIHUP\nIIHUM\nMHUI\nMFI-TransSw\nMFI-TimeSW\nLDS\n}"];
+65 [shape=record,style=filled,fillcolor=lightblue,label="{65 (I: 0, E: 2)||PFP\nSWIM\n}"];
+66 [shape=record,style=filled,label="{66 (I: 0, E: 1)||CLICI\n}"];
+67 [shape=record,style=filled,fillcolor=lightblue,label="{67 (I: 0, E: 2)||SUF-Growth\nVSW\n}"];
+68 [shape=record,style=filled,label="{68 (I: 0, E: 1)||GUIDE\n}"];
+69 [shape=record,style=filled,fillcolor=lightblue,label="{69 (I: 0, E: 5)||CLICI\nGUIDE\nSUF-Growth\nVSW\nFEMP\n}"];
+70 [shape=record,style=filled,fillcolor=lightblue,label="{70 (I: 0, E: 4)||PFP\nSWIM\nSUF-Growth\nVSW\n}"];
+71 [shape=record,style=filled,fillcolor=lightblue,label="{71 (I: 0, E: 8)||CLICI\nGUIDE\nPFP\nSWIM\nSUF-Growth\nVSW\nFEMP\nRMFIsM\n}"];
+72 [shape=record,style=filled,label="{72 (I: 0, E: 1)||Pre-FUFP\n}"];
+73 [shape=record,style=filled,label="{73 (I: 0, E: 1)||estMax\n}"];
+74 [shape=record,style=filled,fillcolor=lightblue,label="{74 (I: 0, E: 2)||Pre-FUFP\nestMax\n}"];
+75 [shape=record,style=filled,label="{75 (I: 0, E: 1)||UHS-Stream\n}"];
+76 [shape=record,style=filled,fillcolor=lightblue,label="{76 (I: 0, E: 4)||Pre-FUFP\nestMax\nCLICI\nUHS-Stream\n}"];
+77 [shape=record,style=filled,label="{77 (I: 0, E: 1)||GENHUI\n}"];
+78 [shape=record,style=filled,label="{78 (I: 0, E: 1)||HUI-LIST-INS\n}"];
+79 [shape=record,style=filled,fillcolor=lightblue,label="{79 (I: 0, E: 2)||HUI-LIST-INS\nGENHUI\n}"];
+80 [shape=record,style=filled,label="{80 (I: 0, E: 1)||IMHAUI\n}"];
+81 [shape=record,style=filled,fillcolor=lightblue,label="{81 (I: 0, E: 2)||GENHUI\nIMHAUI\n}"];
+82 [shape=record,style=filled,fillcolor=lightblue,label="{82 (I: 0, E: 3)||HUI-LIST-INS\nGENHUI\nIMHAUI\n}"];
+83 [shape=record,style=filled,fillcolor=lightblue,label="{83 (I: 0, E: 3)||UHS-Stream\nGENHUI\nIMHAUI\n}"];
+84 [shape=record,style=filled,fillcolor=lightblue,label="{84 (I: 0, E: 7)||Pre-FUFP\nestMax\nCLICI\nUHS-Stream\nHUI-LIST-INS\nGENHUI\nIMHAUI\n}"];
+85 [shape=record,style=filled,fillcolor=lightblue,label="{85 (I: 0, E: 5)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\n}"];
+86 [shape=record,style=filled,fillcolor=lightblue,label="{86 (I: 0, E: 6)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\n}"];
+87 [shape=record,style=filled,fillcolor=lightblue,label="{87 (I: 0, E: 2)||GUIDE\nFUP-HU\n}"];
+88 [shape=record,style=filled,fillcolor=orange,label="{88 (I: 0, E: 2)||TUF-Streaming\nTFUHS-Stream\n}"];
+89 [shape=record,style=filled,fillcolor=lightblue,label="{89 (I: 0, E: 4)||TUF-Streaming\nGUIDE\nFUP-HU\nTFUHS-Stream\n}"];
+90 [shape=record,style=filled,label="{90 (I: 0, E: 1)||HUPID\n}"];
+91 [shape=record,style=filled,label="{91 (I: 0, E: 1)||LIHUP\n}"];
+92 [shape=record,style=filled,fillcolor=lightblue,label="{92 (I: 0, E: 4)||Pre-HUI\nHUPID\nLIHUP\nPIHUP\n}"];
+93 [shape=record,style=filled,fillcolor=lightblue,label="{93 (I: 0, E: 3)||Pre-HUI\nTDUP\nPIHUP\n}"];
+94 [shape=record,style=filled,label="{94 (I: 0, E: 1)||MPM\n}"];
+95 [shape=record,style=filled,fillcolor=lightblue,label="{95 (I: 0, E: 3)||HUPID\nFCIMining\nMPM\n}"];
+96 [shape=record,style=filled,fillcolor=lightblue,label="{96 (I: 0, E: 7)||Pre-HUI\nHUPID\nFCIMining\nTDUP\nLIHUP\nMPM\nPIHUP\n}"];
+97 [shape=record,style=filled,fillcolor=lightblue,label="{97 (I: 0, E: 6)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\nTDUP\n}"];
+98 [shape=record,style=filled,fillcolor=lightblue,label="{98 (I: 0, E: 3)||FUP-HU\nPre-HUI\nPIHUP\n}"];
+99 [shape=record,style=filled,fillcolor=lightblue,label="{99 (I: 0, E: 6)||GUIDE\nFUP-HU\nPre-HUI\nHUPID\nLIHUP\nPIHUP\n}"];
+100 [shape=record,style=filled,fillcolor=lightblue,label="{100 (I: 0, E: 10)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nFUP-HU\nPre-HUI\nTDUP\nPIHUP\n}"];
+101 [shape=record,style=filled,fillcolor=lightblue,label="{101 (I: 0, E: 5)||TUF-Streaming\nTFUHS-Stream\nHUPID\nFCIMining\nMPM\n}"];
+102 [shape=record,style=filled,fillcolor=lightblue,label="{102 (I: 0, E: 17)||Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nTUF-Streaming\nGUIDE\nFUP-HU\nTFUHS-Stream\nPre-HUI\nHUPID\nFCIMining\nTDUP\nLIHUP\nMPM\nPIHUP\n}"];
+103 [shape=record,style=filled,label="{103 (I: 0, E: 1)||FP-Stream\n}"];
+104 [shape=record,style=filled,label="{104 (I: 0, E: 1)||SWM\n}"];
+105 [shape=record,style=filled,label="{105 (I: 0, E: 1)||SWIM\n}"];
+106 [shape=record,style=filled,fillcolor=lightblue,label="{106 (I: 0, E: 2)||SWM\nSWIM\n}"];
+107 [shape=record,style=filled,label="{107 (I: 0, E: 1)||MFI-TransSw\n}"];
+108 [shape=record,style=filled,fillcolor=lightblue,label="{108 (I: 0, E: 3)||SWM\nSWIM\nMFI-TransSw\n}"];
+109 [shape=record,style=filled,label="{109 (I: 0, E: 1)||DSTree\n}"];
+110 [shape=record,style=filled,label="{110 (I: 0, E: 1)||PFP\n}"];
+111 [shape=record,style=filled,fillcolor=lightblue,label="{111 (I: 0, E: 2)||PFP\nDSTree\n}"];
+112 [shape=record,style=filled,fillcolor=lightblue,label="{112 (I: 0, E: 2)||THUI-Mine\nInemine\n}"];
+113 [shape=record,style=filled,fillcolor=lightblue,label="{113 (I: 0, E: 3)||Moment\nDSTree\nCFI-Stream\n}"];
+114 [shape=record,style=filled,fillcolor=lightblue,label="{114 (I: 0, E: 7)||Moment\nPFP\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nInemine\n}"];
+115 [shape=record,style=filled,fillcolor=lightblue,label="{115 (I: 0, E: 4)||NewMoment\nFCDT\nStreamFCI\nTmoment\n}"];
+116 [shape=record,style=filled,label="{116 (I: 0, E: 1)||pWIn\n}"];
+117 [shape=record,style=filled,label="{117 (I: 0, E: 1)||LDS\n}"];
+118 [shape=record,style=filled,label="{118 (I: 0, E: 1)||VSW\n}"];
+119 [shape=record,style=filled,fillcolor=lightblue,label="{119 (I: 0, E: 5)||CPS-tree\nVSW\nSWP-Tree\nLDS\npWIn\n}"];
+120 [shape=record,style=filled,label="{120 (I: 0, E: 1)||MAX-FISM\n}"];
+121 [shape=record,style=filled,fillcolor=lightblue,label="{121 (I: 0, E: 3)||FCDT\nMAX-FISM\npWIn\n}"];
+122 [shape=record,style=filled,label="{122 (I: 0, E: 1)||Clostream\n}"];
+123 [shape=record,style=filled,fillcolor=lightblue,label="{123 (I: 0, E: 7)||NewMoment\nCPS-tree\nIHUP\nClostream\nSWP-Tree\nStreamFCI\nTmoment\n}"];
+124 [shape=record,style=filled,fillcolor=lightblue,label="{124 (I: 0, E: 2)||VSW\nFEMP\n}"];
+125 [shape=record,style=filled,fillcolor=lightblue,label="{125 (I: 0, E: 13)||NewMoment\nCPS-tree\nIHUP\nClostream\nFCDT\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nStreamFCI\nTmoment\npWIn\nFEMP\n}"];
+126 [shape=record,style=filled,label="{126 (I: 0, E: 1)||SHU-Growth\n}"];
+127 [shape=record,style=filled,label="{127 (I: 0, E: 1)||SHAU\n}"];
+128 [shape=record,style=filled,fillcolor=lightblue,label="{128 (I: 0, E: 4)||UDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+129 [shape=record,style=filled,fillcolor=lightblue,label="{129 (I: 0, E: 5)||UDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\n}"];
+130 [shape=record,style=filled,fillcolor=lightblue,label="{130 (I: 0, E: 5)||Moment\nCFI-Stream\nNewMoment\nStreamFCI\nTmoment\n}"];
+131 [shape=record,style=filled,fillcolor=lightblue,label="{131 (I: 0, E: 8)||Moment\nCFI-Stream\nInemine\nNewMoment\nFCDT\nStreamFCI\nTmoment\nConPatSet\n}"];
+132 [shape=record,style=filled,fillcolor=lightblue,label="{132 (I: 0, E: 3)||DSTree\nCPS-tree\nSWP-Tree\n}"];
+133 [shape=record,style=filled,fillcolor=lightblue,label="{133 (I: 0, E: 2)||PFP\nVSW\n}"];
+134 [shape=record,style=filled,fillcolor=lightblue,label="{134 (I: 0, E: 7)||PFP\nDSTree\nCPS-tree\nVSW\nSWP-Tree\nLDS\npWIn\n}"];
+135 [shape=record,style=filled,fillcolor=lightblue,label="{135 (I: 0, E: 2)||MAX-FISM\nRMFIsM\n}"];
+136 [shape=record,style=filled,fillcolor=lightblue,label="{136 (I: 0, E: 2)||IHUP\nSHU-Growth\n}"];
+137 [shape=record,style=filled,fillcolor=lightblue,label="{137 (I: 0, E: 2)||IIHUM\nMHUI\n}"];
+138 [shape=record,style=filled,fillcolor=lightblue,label="{138 (I: 0, E: 5)||IIHUM\nTHUI-Mine\nMHUI\nIHUP\nSHU-Growth\n}"];
+139 [shape=record,style=filled,fillcolor=lightblue,label="{139 (I: 0, E: 6)||THUI-Mine\nInemine\nFCDT\nMAX-FISM\npWIn\nConPatSet\n}"];
+140 [shape=record,style=filled,fillcolor=lightblue,label="{140 (I: 0, E: 2)||Clostream\nUDS-FIM\n}"];
+141 [shape=record,style=filled,fillcolor=lightblue,label="{141 (I: 0, E: 14)||Moment\nDSTree\nCFI-Stream\nNewMoment\nCPS-tree\nIHUP\nClostream\nSWP-Tree\nStreamFCI\nTmoment\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+142 [shape=record,style=filled,fillcolor=lightblue,label="{142 (I: 0, E: 3)||IIHUM\nMHUI\nLDS\n}"];
+143 [shape=record,style=filled,fillcolor=lightblue,label="{143 (I: 0, E: 4)||PFP\nVSW\nFEMP\nRMFIsM\n}"];
+144 [shape=record,style=filled,fillcolor=lightblue,label="{144 (I: 0, E: 27)||IIHUM\nMoment\nPFP\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nInemine\nNewMoment\nCPS-tree\nIHUP\nClostream\nFCDT\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nStreamFCI\nTmoment\npWIn\nFEMP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\nRMFIsM\n}"];
+145 [shape=record,style=filled,label="{145 (I: 0, E: 1)||MFI-TimeSW\n}"];
+146 [shape=record,style=filled,label="{146 (I: 0, E: 1)||SUF-Growth\n}"];
+147 [shape=record,style=filled,fillcolor=lightblue,label="{147 (I: 0, E: 2)||MFI-TimeSW\nSUF-Growth\n}"];
+148 [shape=record,style=filled,label="{148 (I: 0, E: 1)||UF-Streaming\n}"];
+149 [shape=record,style=filled,fillcolor=lightblue,label="{149 (I: 0, E: 3)||MFI-TimeSW\nUF-Streaming\nSUF-Growth\n}"];
+150 [shape=record,style=filled,fillcolor=lightblue,label="{150 (I: 0, E: 2)||GUIDE\npWIn\n}"];
+151 [shape=record,style=filled,fillcolor=lightblue,label="{151 (I: 0, E: 2)||PFP\npWIn\n}"];
+152 [shape=record,style=filled,fillcolor=lightblue,label="{152 (I: 0, E: 2)||GUIDE\nPFP\n}"];
+153 [shape=record,style=filled,fillcolor=lightblue,label="{153 (I: 0, E: 3)||GUIDE\nPFP\npWIn\n}"];
+154 [shape=record,style=filled,label="{154 (I: 0, E: 1)||FDPM\n}"];
+155 [shape=record,style=filled,fillcolor=lightblue,label="{155 (I: 0, E: 3)||Lossy Counting\nestDec\nDSM-FI\n}"];
+156 [shape=record,style=filled,fillcolor=lightblue,label="{156 (I: 0, E: 4)||Lossy Counting\nestDec\nDSM-FI\nSWM\n}"];
+157 [shape=record,style=filled,fillcolor=lightblue,label="{157 (I: 0, E: 5)||Lossy Counting\nFP-Stream\nestDec\nDSM-FI\nSWM\n}"];
+158 [shape=record,style=filled,fillcolor=lightblue,label="{158 (I: 0, E: 5)||Lossy Counting\nestDec\nDSM-FI\nSWM\nInemine\n}"];
+159 [shape=record,style=filled,fillcolor=lightblue,label="{159 (I: 0, E: 6)||Lossy Counting\nFP-Stream\nestDec\nDSM-FI\nSWM\nInemine\n}"];
+160 [shape=record,style=filled,fillcolor=lightblue,label="{160 (I: 0, E: 2)||CLICI\nFCDT\n}"];
+161 [shape=record,style=filled,label="{161 (I: 0, E: 1)||SWP-Tree\n}"];
+162 [shape=record,style=filled,fillcolor=lightblue,label="{162 (I: 0, E: 2)||estMax\nFCDT\n}"];
+163 [shape=record,style=filled,fillcolor=lightblue,label="{163 (I: 0, E: 4)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nUF-Streaming\n}"];
+164 [shape=record,style=filled,fillcolor=lightblue,label="{164 (I: 0, E: 5)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nUF-Streaming\nSWP-Tree\n}"];
+165 [shape=record,style=filled,fillcolor=lightblue,label="{165 (I: 0, E: 3)||estMax\nCLICI\nUHS-Stream\n}"];
+166 [shape=record,style=filled,fillcolor=lightblue,label="{166 (I: 0, E: 2)||FCDT\nSWP-Tree\n}"];
+167 [shape=record,style=filled,fillcolor=lightblue,label="{167 (I: 0, E: 8)||estMax\nCLICI\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nUF-Streaming\nFCDT\nSWP-Tree\n}"];
+168 [shape=record,style=filled,fillcolor=lightblue,label="{168 (I: 0, E: 2)||FCIMining\nTDUP\n}"];
+169 [shape=record,style=filled,fillcolor=lightblue,label="{169 (I: 0, E: 2)||Inemine\nFCDT\n}"];
+170 [shape=record,style=filled,fillcolor=lightblue,label="{170 (I: 0, E: 4)||CLICI\nFCIMining\nInemine\nFCDT\n}"];
+171 [shape=record,style=filled,fillcolor=lightblue,label="{171 (I: 0, E: 4)||Lossy Counting\nestDec\nDSM-FI\nTDUP\n}"];
+172 [shape=record,style=filled,fillcolor=lightblue,label="{172 (I: 0, E: 5)||Lossy Counting\nestDec\nDSM-FI\nTDUP\nSWM\n}"];
+173 [shape=record,style=filled,fillcolor=lightblue,label="{173 (I: 0, E: 2)||FP-Stream\nSWP-Tree\n}"];
+174 [shape=record,style=filled,fillcolor=lightblue,label="{174 (I: 0, E: 7)||Lossy Counting\nFP-Stream\nestDec\nDSM-FI\nTDUP\nSWM\nSWP-Tree\n}"];
+175 [shape=record,style=filled,fillcolor=lightblue,label="{175 (I: 0, E: 8)||Lossy Counting\nestDec\nDSM-FI\nestMax\nTDUP\nSWM\nInemine\nFCDT\n}"];
+176 [shape=record,style=filled,fillcolor=lightblue,label="{176 (I: 0, E: 3)||TUF-Streaming\nTFUHS-Stream\nFCIMining\n}"];
+177 [shape=record,style=filled,fillcolor=lightblue,label="{177 (I: 0, E: 7)||FP-Stream\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nFCIMining\nUF-Streaming\nSWP-Tree\n}"];
+178 [shape=record,style=filled,fillcolor=lightblue,label="{178 (I: 0, E: 7)||Lossy Counting\nestDec\nDSM-FI\nTUF-Streaming\nTFUHS-Stream\nFCIMining\nTDUP\n}"];
+179 [shape=record,style=filled,fillcolor=lightblue,label="{179 (I: 0, E: 3)||Inemine\nFCDT\nSWP-Tree\n}"];
+180 [shape=record,style=filled,fillcolor=lightblue,label="{180 (I: 0, E: 16)||Lossy Counting\nFP-Stream\nestDec\nDSM-FI\nestMax\nCLICI\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nFCIMining\nTDUP\nSWM\nInemine\nUF-Streaming\nFCDT\nSWP-Tree\n}"];
+181 [shape=record,style=filled,label="{181 (I: 0, E: 1)||FUFP-Tree\n}"];
+182 [shape=record,style=filled,fillcolor=lightblue,label="{182 (I: 0, E: 3)||FUFP-Tree\nDSTree\nSWIM\n}"];
+183 [shape=record,style=filled,fillcolor=lightblue,label="{183 (I: 0, E: 2)||INSTANT\nFUFP-Tree\n}"];
+184 [shape=record,style=filled,fillcolor=lightblue,label="{184 (I: 0, E: 3)||INSTANT\nFUFP-Tree\nTHUI-Mine\n}"];
+185 [shape=record,style=filled,fillcolor=lightblue,label="{185 (I: 0, E: 5)||Moment\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\n}"];
+186 [shape=record,style=filled,fillcolor=lightblue,label="{186 (I: 0, E: 8)||INSTANT\nFUFP-Tree\nMoment\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\n}"];
+187 [shape=record,style=filled,label="{187 (I: 0, E: 1)||CPS-tree\n}"];
+188 [shape=record,style=filled,fillcolor=lightblue,label="{188 (I: 0, E: 3)||CPS-tree\nVSW\nLDS\n}"];
+189 [shape=record,style=filled,fillcolor=lightblue,label="{189 (I: 0, E: 7)||Pre-FUFP\nCPS-tree\nMFI-TransSw\nMFI-TimeSW\nSUF-Growth\nVSW\nLDS\n}"];
+190 [shape=record,style=filled,fillcolor=lightblue,label="{190 (I: 0, E: 2)||FUP-HU\nIHUP\n}"];
+191 [shape=record,style=filled,fillcolor=lightblue,label="{191 (I: 0, E: 3)||Pre-FUFP\nFUP-HU\nMAX-FISM\n}"];
+192 [shape=record,style=filled,fillcolor=lightblue,label="{192 (I: 0, E: 6)||NewMoment\nCPS-tree\nIHUP\nClostream\nStreamFCI\nTmoment\n}"];
+193 [shape=record,style=filled,fillcolor=lightblue,label="{193 (I: 0, E: 3)||SUF-Growth\nVSW\nFEMP\n}"];
+194 [shape=record,style=filled,fillcolor=lightblue,label="{194 (I: 0, E: 10)||NewMoment\nCPS-tree\nIHUP\nClostream\nVSW\nLDS\nMAX-FISM\nStreamFCI\nTmoment\nFEMP\n}"];
+195 [shape=record,style=filled,fillcolor=lightblue,label="{195 (I: 0, E: 15)||Pre-FUFP\nFUP-HU\nNewMoment\nCPS-tree\nIHUP\nMFI-TransSw\nMFI-TimeSW\nClostream\nSUF-Growth\nVSW\nLDS\nMAX-FISM\nStreamFCI\nTmoment\nFEMP\n}"];
+196 [shape=record,style=filled,fillcolor=lightblue,label="{196 (I: 0, E: 3)||Pre-HUI\nPIHUP\nConPatSet\n}"];
+197 [shape=record,style=filled,fillcolor=lightblue,label="{197 (I: 0, E: 2)||HUPID\nMPM\n}"];
+198 [shape=record,style=filled,fillcolor=lightblue,label="{198 (I: 0, E: 8)||HUPID\nGENHUI\nIMHAUI\nMPM\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+199 [shape=record,style=filled,fillcolor=lightblue,label="{199 (I: 0, E: 5)||Pre-HUI\nHUPID\nLIHUP\nMPM\nPIHUP\n}"];
+200 [shape=record,style=filled,fillcolor=lightblue,label="{200 (I: 0, E: 13)||Pre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nIMHAUI\nMPM\nPIHUP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\n}"];
+201 [shape=record,style=filled,fillcolor=lightblue,label="{201 (I: 0, E: 6)||Moment\nCFI-Stream\nNewMoment\nStreamFCI\nTmoment\nConPatSet\n}"];
+202 [shape=record,style=filled,fillcolor=lightblue,label="{202 (I: 0, E: 2)||FUFP-Tree\nPre-FUFP\n}"];
+203 [shape=record,style=filled,fillcolor=lightblue,label="{203 (I: 0, E: 2)||DSTree\nCPS-tree\n}"];
+204 [shape=record,style=filled,fillcolor=lightblue,label="{204 (I: 0, E: 3)||SWIM\nSUF-Growth\nVSW\n}"];
+205 [shape=record,style=filled,fillcolor=lightblue,label="{205 (I: 0, E: 2)||SWIM\nMFI-TransSw\n}"];
+206 [shape=record,style=filled,fillcolor=lightblue,label="{206 (I: 0, E: 4)||DSTree\nCPS-tree\nVSW\nLDS\n}"];
+207 [shape=record,style=filled,fillcolor=lightblue,label="{207 (I: 0, E: 10)||FUFP-Tree\nPre-FUFP\nDSTree\nSWIM\nCPS-tree\nMFI-TransSw\nMFI-TimeSW\nSUF-Growth\nVSW\nLDS\n}"];
+208 [shape=record,style=filled,fillcolor=lightblue,label="{208 (I: 0, E: 2)||INSTANT\nMAX-FISM\n}"];
+209 [shape=record,style=filled,fillcolor=lightblue,label="{209 (I: 0, E: 3)||INSTANT\nMAX-FISM\nRMFIsM\n}"];
+210 [shape=record,style=filled,fillcolor=lightblue,label="{210 (I: 0, E: 5)||FUP-HU\nPre-HUI\nHUPID\nLIHUP\nPIHUP\n}"];
+211 [shape=record,style=filled,fillcolor=lightblue,label="{211 (I: 0, E: 12)||FUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nPIHUP\nIIHUM\nTHUI-Mine\nMHUI\nIHUP\nSHU-Growth\n}"];
+212 [shape=record,style=filled,fillcolor=lightblue,label="{212 (I: 0, E: 5)||INSTANT\nFUFP-Tree\nFUP-HU\nPre-HUI\nPIHUP\n}"];
+213 [shape=record,style=filled,fillcolor=lightblue,label="{213 (I: 0, E: 3)||THUI-Mine\nMAX-FISM\nConPatSet\n}"];
+214 [shape=record,style=filled,fillcolor=lightblue,label="{214 (I: 0, E: 9)||INSTANT\nFUFP-Tree\nPre-FUFP\nFUP-HU\nPre-HUI\nPIHUP\nTHUI-Mine\nMAX-FISM\nConPatSet\n}"];
+215 [shape=record,style=filled,fillcolor=lightblue,label="{215 (I: 0, E: 13)||Moment\nDSTree\nCFI-Stream\nNewMoment\nCPS-tree\nIHUP\nClostream\nStreamFCI\nTmoment\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+216 [shape=record,style=filled,fillcolor=lightblue,label="{216 (I: 0, E: 17)||HUPID\nGENHUI\nIMHAUI\nMPM\nMoment\nDSTree\nCFI-Stream\nNewMoment\nCPS-tree\nIHUP\nClostream\nStreamFCI\nTmoment\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+217 [shape=record,style=filled,fillcolor=lightblue,label="{217 (I: 0, E: 3)||VSW\nFEMP\nRMFIsM\n}"];
+218 [shape=record,style=filled,fillcolor=lightblue,label="{218 (I: 0, E: 5)||SWIM\nSUF-Growth\nVSW\nFEMP\nRMFIsM\n}"];
+219 [shape=record,style=filled,fillcolor=lightblue,label="{219 (I: 0, E: 4)||Pre-FUFP\nHUI-LIST-INS\nGENHUI\nIMHAUI\n}"];
+220 [shape=record,style=filled,fillcolor=lightblue,label="{220 (I: 0, E: 8)||INSTANT\nFUFP-Tree\nFUP-HU\nPre-HUI\nHUPID\nLIHUP\nMPM\nPIHUP\n}"];
+221 [shape=record,style=filled,fillcolor=lightblue,label="{221 (I: 0, E: 22)||IIHUM\nMoment\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nNewMoment\nCPS-tree\nIHUP\nClostream\nVSW\nLDS\nMAX-FISM\nStreamFCI\nTmoment\nFEMP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\nRMFIsM\n}"];
+222 [shape=record,style=filled,fillcolor=lightblue,label="{222 (I: 0, E: 38)||INSTANT\nFUFP-Tree\nPre-FUFP\nFUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nIMHAUI\nMPM\nPIHUP\nIIHUM\nMoment\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nNewMoment\nCPS-tree\nIHUP\nMFI-TransSw\nMFI-TimeSW\nClostream\nSUF-Growth\nVSW\nLDS\nMAX-FISM\nStreamFCI\nTmoment\nFEMP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\nRMFIsM\n}"];
+223 [shape=record,style=filled,fillcolor=lightblue,label="{223 (I: 0, E: 2)||UDS-FIM\nConPatSet\n}"];
+224 [shape=record,style=filled,fillcolor=lightblue,label="{224 (I: 0, E: 2)||FEMP\nRMFIsM\n}"];
+225 [shape=record,style=filled,fillcolor=lightblue,label="{225 (I: 0, E: 4)||FEMP\nUDS-FIM\nConPatSet\nRMFIsM\n}"];
+226 [shape=record,style=filled,label="{226 (I: 0, E: 1)||StreamFCI\n}"];
+227 [shape=record,style=filled,fillcolor=lightblue,label="{227 (I: 0, E: 2)||FCDT\nStreamFCI\n}"];
+228 [shape=record,style=filled,fillcolor=lightblue,label="{228 (I: 0, E: 2)||FCDT\npWIn\n}"];
+229 [shape=record,style=filled,fillcolor=lightblue,label="{229 (I: 0, E: 3)||FCDT\nStreamFCI\npWIn\n}"];
+230 [shape=record,style=filled,label="{230 (I: 0, E: 1)||PIHUP\n}"];
+231 [shape=record,style=filled,fillcolor=lightblue,label="{231 (I: 0, E: 2)||IMHAUI\nSHAU\n}"];
+232 [shape=record,style=filled,fillcolor=lightblue,label="{232 (I: 0, E: 2)||SHAU\nPFIMoS\n}"];
+233 [shape=record,style=filled,fillcolor=lightblue,label="{233 (I: 0, E: 3)||IMHAUI\nSHAU\nPFIMoS\n}"];
+234 [shape=record,style=filled,fillcolor=lightblue,label="{234 (I: 0, E: 4)||FCIMining\nIMHAUI\nSHAU\nPFIMoS\n}"];
+235 [shape=record,style=filled,fillcolor=lightblue,label="{235 (I: 0, E: 2)||FCIMining\nPIHUP\n}"];
+236 [shape=record,style=filled,fillcolor=lightblue,label="{236 (I: 0, E: 4)||IMHAUI\nPIHUP\nSHAU\nPFIMoS\n}"];
+237 [shape=record,style=filled,fillcolor=lightblue,label="{237 (I: 0, E: 5)||FCIMining\nIMHAUI\nPIHUP\nSHAU\nPFIMoS\n}"];
+238 [shape=record,style=filled,fillcolor=lightblue,label="{238 (I: 0, E: 2)||FCIMining\nStreamFCI\n}"];
+239 [shape=record,style=filled,fillcolor=lightblue,label="{239 (I: 0, E: 2)||FCIMining\nFCDT\n}"];
+240 [shape=record,style=filled,fillcolor=lightblue,label="{240 (I: 0, E: 3)||FCIMining\nFCDT\nStreamFCI\n}"];
+241 [shape=record,style=filled,fillcolor=lightblue,label="{241 (I: 0, E: 2)||PIHUP\nIIHUM\n}"];
+242 [shape=record,style=filled,fillcolor=lightblue,label="{242 (I: 0, E: 3)||PIHUP\nFCDT\npWIn\n}"];
+243 [shape=record,style=filled,fillcolor=lightblue,label="{243 (I: 0, E: 3)||StreamFCI\nSHAU\nPFIMoS\n}"];
+244 [shape=record,style=filled,fillcolor=lightblue,label="{244 (I: 0, E: 4)||IMHAUI\nStreamFCI\nSHAU\nPFIMoS\n}"];
+245 [shape=record,style=filled,fillcolor=lightblue,label="{245 (I: 0, E: 5)||FCIMining\nIMHAUI\nStreamFCI\nSHAU\nPFIMoS\n}"];
+246 [shape=record,style=filled,fillcolor=lightblue,label="{246 (I: 0, E: 4)||IIHUM\nStreamFCI\nSHAU\nPFIMoS\n}"];
+247 [shape=record,style=filled,fillcolor=lightblue,label="{247 (I: 0, E: 6)||IIHUM\nFCDT\nStreamFCI\npWIn\nSHAU\nPFIMoS\n}"];
+248 [shape=record,style=filled,fillcolor=lightblue,label="{248 (I: 0, E: 6)||IMHAUI\nPIHUP\nIIHUM\nStreamFCI\nSHAU\nPFIMoS\n}"];
+249 [shape=record,style=filled,fillcolor=lightblue,label="{249 (I: 0, E: 9)||FCIMining\nIMHAUI\nPIHUP\nIIHUM\nFCDT\nStreamFCI\npWIn\nSHAU\nPFIMoS\n}"];
+250 [shape=record,style=filled,label="{250 (I: 0, E: 1)||DSM-FI\n}"];
+251 [shape=record,style=filled,fillcolor=lightblue,label="{251 (I: 0, E: 2)||DSM-FI\nSWM\n}"];
+252 [shape=record,style=filled,fillcolor=lightblue,label="{252 (I: 0, E: 4)||DSM-FI\nSWM\nPFP\nSWIM\n}"];
+253 [shape=record,style=filled,fillcolor=lightblue,label="{253 (I: 0, E: 2)||DSM-FI\nINSTANT\n}"];
+254 [shape=record,style=filled,fillcolor=lightblue,label="{254 (I: 0, E: 3)||DSM-FI\nSWM\nInemine\n}"];
+255 [shape=record,style=filled,fillcolor=lightblue,label="{255 (I: 0, E: 2)||INSTANT\nTHUI-Mine\n}"];
+256 [shape=record,style=filled,fillcolor=lightblue,label="{256 (I: 0, E: 5)||DSM-FI\nINSTANT\nSWM\nTHUI-Mine\nInemine\n}"];
+257 [shape=record,style=filled,label="{257 (I: 0, E: 1)||CFI-Stream\n}"];
+258 [shape=record,style=filled,fillcolor=lightblue,label="{258 (I: 0, E: 2)||CFI-Stream\nInemine\n}"];
+259 [shape=record,style=filled,fillcolor=lightblue,label="{259 (I: 0, E: 3)||CFI-Stream\nTHUI-Mine\nMHUI\n}"];
+260 [shape=record,style=filled,fillcolor=lightblue,label="{260 (I: 0, E: 5)||PFP\nCFI-Stream\nTHUI-Mine\nMHUI\nInemine\n}"];
+261 [shape=record,style=filled,fillcolor=lightblue,label="{261 (I: 0, E: 5)||INSTANT\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\n}"];
+262 [shape=record,style=filled,fillcolor=lightblue,label="{262 (I: 0, E: 9)||DSM-FI\nINSTANT\nSWM\nPFP\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nInemine\n}"];
+263 [shape=record,style=filled,fillcolor=orange,label="{263 (I: 0, E: 2)||NewMoment\nTmoment\n}"];
+264 [shape=record,style=filled,fillcolor=lightblue,label="{264 (I: 0, E: 3)||CLICI\nNewMoment\nTmoment\n}"];
+265 [shape=record,style=filled,fillcolor=lightblue,label="{265 (I: 0, E: 4)||CPS-tree\nVSW\nSWP-Tree\nLDS\n}"];
+266 [shape=record,style=filled,fillcolor=lightblue,label="{266 (I: 0, E: 5)||Pre-FUFP\nCPS-tree\nSUF-Growth\nVSW\nLDS\n}"];
+267 [shape=record,style=filled,fillcolor=lightblue,label="{267 (I: 0, E: 6)||Pre-FUFP\nCPS-tree\nSUF-Growth\nVSW\nSWP-Tree\nLDS\n}"];
+268 [shape=record,style=filled,fillcolor=lightblue,label="{268 (I: 0, E: 4)||Pre-FUFP\nestMax\nFUP-HU\nMAX-FISM\n}"];
+269 [shape=record,style=filled,fillcolor=lightblue,label="{269 (I: 0, E: 4)||NewMoment\nCPS-tree\nClostream\nTmoment\n}"];
+270 [shape=record,style=filled,fillcolor=lightblue,label="{270 (I: 0, E: 5)||NewMoment\nCPS-tree\nClostream\nSWP-Tree\nTmoment\n}"];
+271 [shape=record,style=filled,fillcolor=lightblue,label="{271 (I: 0, E: 9)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nNewMoment\nCPS-tree\nUF-Streaming\nClostream\nSWP-Tree\nTmoment\n}"];
+272 [shape=record,style=filled,fillcolor=lightblue,label="{272 (I: 0, E: 4)||CLICI\nGUIDE\nSUF-Growth\nVSW\n}"];
+273 [shape=record,style=filled,fillcolor=lightblue,label="{273 (I: 0, E: 7)||NewMoment\nCPS-tree\nClostream\nVSW\nLDS\nMAX-FISM\nTmoment\n}"];
+274 [shape=record,style=filled,fillcolor=lightblue,label="{274 (I: 0, E: 8)||NewMoment\nCPS-tree\nClostream\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nTmoment\n}"];
+275 [shape=record,style=filled,fillcolor=lightblue,label="{275 (I: 0, E: 2)||UF-Streaming\nSUF-Growth\n}"];
+276 [shape=record,style=filled,fillcolor=lightblue,label="{276 (I: 0, E: 7)||estMax\nCLICI\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nUF-Streaming\nSWP-Tree\n}"];
+277 [shape=record,style=filled,fillcolor=lightblue,label="{277 (I: 0, E: 10)||Pre-FUFP\nFUP-HU\nNewMoment\nCPS-tree\nClostream\nSUF-Growth\nVSW\nLDS\nMAX-FISM\nTmoment\n}"];
+278 [shape=record,style=filled,fillcolor=lightblue,label="{278 (I: 0, E: 18)||Pre-FUFP\nestMax\nCLICI\nTUF-Streaming\nGUIDE\nFUP-HU\nUHS-Stream\nTFUHS-Stream\nNewMoment\nCPS-tree\nUF-Streaming\nClostream\nSUF-Growth\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nTmoment\n}"];
+279 [shape=record,style=filled,label="{279 (I: 0, E: 1)||Pre-HUI\n}"];
+280 [shape=record,style=filled,fillcolor=lightblue,label="{280 (I: 0, E: 2)||Pre-HUI\nTDUP\n}"];
+281 [shape=record,style=filled,fillcolor=lightblue,label="{281 (I: 0, E: 4)||HUPID\nGENHUI\nMPM\nSHU-Growth\n}"];
+282 [shape=record,style=filled,fillcolor=lightblue,label="{282 (I: 0, E: 3)||Pre-HUI\nHUPID\nLIHUP\n}"];
+283 [shape=record,style=filled,fillcolor=lightblue,label="{283 (I: 0, E: 4)||Pre-HUI\nHUPID\nLIHUP\nMPM\n}"];
+284 [shape=record,style=filled,fillcolor=lightblue,label="{284 (I: 0, E: 5)||Pre-HUI\nHUPID\nTDUP\nLIHUP\nMPM\n}"];
+285 [shape=record,style=filled,fillcolor=lightblue,label="{285 (I: 0, E: 6)||Pre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nSHU-Growth\n}"];
+286 [shape=record,style=filled,fillcolor=lightblue,label="{286 (I: 0, E: 7)||Pre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nMPM\nSHU-Growth\n}"];
+287 [shape=record,style=filled,fillcolor=lightblue,label="{287 (I: 0, E: 8)||Pre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nTDUP\nLIHUP\nMPM\nSHU-Growth\n}"];
+288 [shape=record,style=filled,fillcolor=lightblue,label="{288 (I: 0, E: 3)||CFI-Stream\nNewMoment\nTmoment\n}"];
+289 [shape=record,style=filled,fillcolor=lightblue,label="{289 (I: 0, E: 4)||CFI-Stream\nInemine\nNewMoment\nTmoment\n}"];
+290 [shape=record,style=filled,fillcolor=lightblue,label="{290 (I: 0, E: 2)||CLICI\nInemine\n}"];
+291 [shape=record,style=filled,fillcolor=lightblue,label="{291 (I: 0, E: 5)||CLICI\nCFI-Stream\nInemine\nNewMoment\nTmoment\n}"];
+292 [shape=record,style=filled,fillcolor=lightblue,label="{292 (I: 0, E: 2)||DSM-FI\nTDUP\n}"];
+293 [shape=record,style=filled,fillcolor=lightblue,label="{293 (I: 0, E: 3)||DSM-FI\nTDUP\nSWM\n}"];
+294 [shape=record,style=filled,fillcolor=lightblue,label="{294 (I: 0, E: 4)||DSM-FI\nPre-FUFP\nTDUP\nSWM\n}"];
+295 [shape=record,style=filled,fillcolor=lightblue,label="{295 (I: 0, E: 5)||PFP\nCPS-tree\nVSW\nSWP-Tree\nLDS\n}"];
+296 [shape=record,style=filled,fillcolor=lightblue,label="{296 (I: 0, E: 4)||DSM-FI\nTDUP\nSWM\nSWP-Tree\n}"];
+297 [shape=record,style=filled,fillcolor=lightblue,label="{297 (I: 0, E: 6)||Pre-FUFP\nSWIM\nCPS-tree\nSUF-Growth\nVSW\nLDS\n}"];
+298 [shape=record,style=filled,fillcolor=lightblue,label="{298 (I: 0, E: 11)||DSM-FI\nPre-FUFP\nTDUP\nSWM\nPFP\nSWIM\nCPS-tree\nSUF-Growth\nVSW\nSWP-Tree\nLDS\n}"];
+299 [shape=record,style=filled,fillcolor=lightblue,label="{299 (I: 0, E: 2)||FUP-HU\nPre-HUI\n}"];
+300 [shape=record,style=filled,fillcolor=lightblue,label="{300 (I: 0, E: 4)||FUP-HU\nPre-HUI\nHUPID\nLIHUP\n}"];
+301 [shape=record,style=filled,fillcolor=lightblue,label="{301 (I: 0, E: 5)||GUIDE\nFUP-HU\nPre-HUI\nHUPID\nLIHUP\n}"];
+302 [shape=record,style=filled,fillcolor=lightblue,label="{302 (I: 0, E: 3)||FUP-HU\nPre-HUI\nTHUI-Mine\n}"];
+303 [shape=record,style=filled,fillcolor=lightblue,label="{303 (I: 0, E: 3)||HUI-LIST-INS\nLIHUP\nMHUI\n}"];
+304 [shape=record,style=filled,fillcolor=lightblue,label="{304 (I: 0, E: 3)||THUI-Mine\nMHUI\nSHU-Growth\n}"];
+305 [shape=record,style=filled,fillcolor=lightblue,label="{305 (I: 0, E: 9)||FUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nTHUI-Mine\nMHUI\nSHU-Growth\n}"];
+306 [shape=record,style=filled,fillcolor=lightblue,label="{306 (I: 0, E: 10)||GUIDE\nFUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nTHUI-Mine\nMHUI\nSHU-Growth\n}"];
+307 [shape=record,style=filled,fillcolor=lightblue,label="{307 (I: 0, E: 3)||INSTANT\nFUP-HU\nPre-HUI\n}"];
+308 [shape=record,style=filled,fillcolor=lightblue,label="{308 (I: 0, E: 5)||DSM-FI\nINSTANT\nFUP-HU\nPre-HUI\nTDUP\n}"];
+309 [shape=record,style=filled,fillcolor=lightblue,label="{309 (I: 0, E: 2)||THUI-Mine\nMAX-FISM\n}"];
+310 [shape=record,style=filled,fillcolor=lightblue,label="{310 (I: 0, E: 3)||THUI-Mine\nInemine\nMAX-FISM\n}"];
+311 [shape=record,style=filled,fillcolor=lightblue,label="{311 (I: 0, E: 5)||DSM-FI\nestMax\nTDUP\nSWM\nInemine\n}"];
+312 [shape=record,style=filled,fillcolor=lightblue,label="{312 (I: 0, E: 6)||INSTANT\nPre-FUFP\nFUP-HU\nPre-HUI\nTHUI-Mine\nMAX-FISM\n}"];
+313 [shape=record,style=filled,fillcolor=lightblue,label="{313 (I: 0, E: 11)||DSM-FI\nINSTANT\nPre-FUFP\nestMax\nFUP-HU\nPre-HUI\nTDUP\nSWM\nTHUI-Mine\nInemine\nMAX-FISM\n}"];
+314 [shape=record,style=filled,fillcolor=lightblue,label="{314 (I: 0, E: 2)||UHS-Stream\nGENHUI\n}"];
+315 [shape=record,style=filled,fillcolor=lightblue,label="{315 (I: 0, E: 4)||TUF-Streaming\nTFUHS-Stream\nHUPID\nMPM\n}"];
+316 [shape=record,style=filled,fillcolor=lightblue,label="{316 (I: 0, E: 6)||CFI-Stream\nNewMoment\nCPS-tree\nClostream\nTmoment\nSHU-Growth\n}"];
+317 [shape=record,style=filled,fillcolor=lightblue,label="{317 (I: 0, E: 7)||CFI-Stream\nNewMoment\nCPS-tree\nClostream\nSWP-Tree\nTmoment\nSHU-Growth\n}"];
+318 [shape=record,style=filled,fillcolor=lightblue,label="{318 (I: 0, E: 9)||HUPID\nGENHUI\nMPM\nCFI-Stream\nNewMoment\nCPS-tree\nClostream\nTmoment\nSHU-Growth\n}"];
+319 [shape=record,style=filled,fillcolor=lightblue,label="{319 (I: 0, E: 14)||TUF-Streaming\nUHS-Stream\nTFUHS-Stream\nHUPID\nGENHUI\nMPM\nCFI-Stream\nNewMoment\nCPS-tree\nUF-Streaming\nClostream\nSWP-Tree\nTmoment\nSHU-Growth\n}"];
+320 [shape=record,style=filled,fillcolor=lightblue,label="{320 (I: 0, E: 6)||CLICI\nGUIDE\nPFP\nSWIM\nSUF-Growth\nVSW\n}"];
+321 [shape=record,style=filled,fillcolor=lightblue,label="{321 (I: 0, E: 3)||Pre-FUFP\nHUI-LIST-INS\nGENHUI\n}"];
+322 [shape=record,style=filled,fillcolor=lightblue,label="{322 (I: 0, E: 6)||Pre-FUFP\nestMax\nCLICI\nUHS-Stream\nHUI-LIST-INS\nGENHUI\n}"];
+323 [shape=record,style=filled,fillcolor=lightblue,label="{323 (I: 0, E: 4)||DSM-FI\nTUF-Streaming\nTFUHS-Stream\nTDUP\n}"];
+324 [shape=record,style=filled,fillcolor=lightblue,label="{324 (I: 0, E: 6)||INSTANT\nFUP-HU\nPre-HUI\nHUPID\nLIHUP\nMPM\n}"];
+325 [shape=record,style=filled,fillcolor=lightblue,label="{325 (I: 0, E: 11)||DSM-FI\nINSTANT\nTUF-Streaming\nGUIDE\nFUP-HU\nTFUHS-Stream\nPre-HUI\nHUPID\nTDUP\nLIHUP\nMPM\n}"];
+326 [shape=record,style=filled,fillcolor=lightblue,label="{326 (I: 0, E: 2)||Inemine\nSWP-Tree\n}"];
+327 [shape=record,style=filled,fillcolor=lightblue,label="{327 (I: 0, E: 2)||MHUI\nLDS\n}"];
+328 [shape=record,style=filled,fillcolor=lightblue,label="{328 (I: 0, E: 11)||CFI-Stream\nTHUI-Mine\nMHUI\nNewMoment\nCPS-tree\nClostream\nVSW\nLDS\nMAX-FISM\nTmoment\nSHU-Growth\n}"];
+329 [shape=record,style=filled,fillcolor=lightblue,label="{329 (I: 0, E: 14)||PFP\nCFI-Stream\nTHUI-Mine\nMHUI\nInemine\nNewMoment\nCPS-tree\nClostream\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nTmoment\nSHU-Growth\n}"];
+330 [shape=record,style=filled,fillcolor=lightblue,label="{330 (I: 0, E: 11)||DSM-FI\nestMax\nCLICI\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nTDUP\nSWM\nInemine\nUF-Streaming\nSWP-Tree\n}"];
+331 [shape=record,style=filled,fillcolor=lightblue,label="{331 (I: 0, E: 4)||HUI-LIST-INS\nLIHUP\nMHUI\nLDS\n}"];
+332 [shape=record,style=filled,fillcolor=lightblue,label="{332 (I: 0, E: 22)||INSTANT\nPre-FUFP\nFUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nMPM\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nNewMoment\nCPS-tree\nClostream\nSUF-Growth\nVSW\nLDS\nMAX-FISM\nTmoment\nSHU-Growth\n}"];
+333 [shape=record,style=filled,fillcolor=lightblue,label="{333 (I: 0, E: 35)||DSM-FI\nINSTANT\nPre-FUFP\nestMax\nCLICI\nTUF-Streaming\nGUIDE\nFUP-HU\nUHS-Stream\nTFUHS-Stream\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nTDUP\nLIHUP\nMPM\nSWM\nPFP\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nInemine\nNewMoment\nCPS-tree\nUF-Streaming\nClostream\nSUF-Growth\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nTmoment\nSHU-Growth\n}"];
+334 [shape=record,style=filled,label="{334 (I: 0, E: 1)||estDec\n}"];
+335 [shape=record,style=filled,fillcolor=lightblue,label="{335 (I: 0, E: 3)||estDec\nFDPM\nFUFP-Tree\n}"];
+336 [shape=record,style=filled,fillcolor=lightblue,label="{336 (I: 0, E: 2)||FUFP-Tree\nDSTree\n}"];
+337 [shape=record,style=filled,fillcolor=lightblue,label="{337 (I: 0, E: 4)||estDec\nFDPM\nFUFP-Tree\nDSTree\n}"];
+338 [shape=record,style=filled,label="{338 (I: 0, E: 1)||Moment\n}"];
+339 [shape=record,style=filled,fillcolor=lightblue,label="{339 (I: 0, E: 2)||Moment\nDSTree\n}"];
+340 [shape=record,style=filled,fillcolor=lightblue,label="{340 (I: 0, E: 3)||FUFP-Tree\nMoment\nDSTree\n}"];
+341 [shape=record,style=filled,fillcolor=lightblue,label="{341 (I: 0, E: 5)||estDec\nFDPM\nFUFP-Tree\nMoment\nDSTree\n}"];
+342 [shape=record,style=filled,fillcolor=lightblue,label="{342 (I: 0, E: 2)||MFI-TransSw\nMFI-TimeSW\n}"];
+343 [shape=record,style=filled,fillcolor=lightblue,label="{343 (I: 0, E: 4)||FUFP-Tree\nDSTree\nMFI-TransSw\nMFI-TimeSW\n}"];
+344 [shape=record,style=filled,fillcolor=lightblue,label="{344 (I: 0, E: 6)||estDec\nFDPM\nFUFP-Tree\nDSTree\nMFI-TransSw\nMFI-TimeSW\n}"];
+345 [shape=record,style=filled,fillcolor=lightblue,label="{345 (I: 0, E: 5)||FUFP-Tree\nMoment\nDSTree\nMFI-TransSw\nMFI-TimeSW\n}"];
+346 [shape=record,style=filled,fillcolor=lightblue,label="{346 (I: 0, E: 7)||estDec\nFDPM\nFUFP-Tree\nMoment\nDSTree\nMFI-TransSw\nMFI-TimeSW\n}"];
+347 [shape=record,style=filled,label="{347 (I: 0, E: 1)||Lossy Counting\n}"];
+348 [shape=record,style=filled,fillcolor=lightblue,label="{348 (I: 0, E: 2)||Lossy Counting\nFP-Stream\n}"];
+349 [shape=record,style=filled,fillcolor=lightblue,label="{349 (I: 0, E: 2)||FP-Stream\nIHUP\n}"];
+350 [shape=record,style=filled,fillcolor=lightblue,label="{350 (I: 0, E: 3)||Lossy Counting\nFP-Stream\nIHUP\n}"];
+	1 -> 0
+	2 -> 12
+	2 -> 14
+	2 -> 16
+	2 -> 19
+	2 -> 21
+	2 -> 22
+	2 -> 28
+	2 -> 30
+	2 -> 32
+	2 -> 34
+	2 -> 36
+	2 -> 38
+	2 -> 51
+	2 -> 53
+	2 -> 60
+	2 -> 66
+	2 -> 68
+	2 -> 72
+	2 -> 73
+	2 -> 75
+	2 -> 77
+	2 -> 78
+	2 -> 80
+	2 -> 88
+	2 -> 90
+	2 -> 91
+	2 -> 94
+	2 -> 103
+	2 -> 104
+	2 -> 105
+	2 -> 107
+	2 -> 109
+	2 -> 110
+	2 -> 116
+	2 -> 117
+	2 -> 118
+	2 -> 120
+	2 -> 122
+	2 -> 126
+	2 -> 127
+	2 -> 145
+	2 -> 146
+	2 -> 148
+	2 -> 154
+	2 -> 161
+	2 -> 181
+	2 -> 187
+	2 -> 226
+	2 -> 230
+	2 -> 250
+	2 -> 257
+	2 -> 263
+	2 -> 279
+	2 -> 334
+	2 -> 338
+	2 -> 347
+	3 -> 0
+	4 -> 0
+	5 -> 221
+	6 -> 114
+	6 -> 131
+	7 -> 3
+	7 -> 9
+	8 -> 4
+	8 -> 9
+	9 -> 0
+	10 -> 1
+	10 -> 13
+	11 -> 3
+	11 -> 13
+	12 -> 168
+	12 -> 280
+	12 -> 292
+	13 -> 0
+	14 -> 183
+	14 -> 208
+	14 -> 253
+	14 -> 255
+	14 -> 307
+	15 -> 43
+	15 -> 268
+	16 -> 5
+	16 -> 135
+	16 -> 224
+	17 -> 0
+	18 -> 20
+	18 -> 271
+	19 -> 128
+	19 -> 140
+	19 -> 223
+	20 -> 59
+	21 -> 23
+	21 -> 124
+	21 -> 224
+	22 -> 23
+	22 -> 232
+	23 -> 221
+	24 -> 198
+	25 -> 259
+	25 -> 304
+	26 -> 3
+	26 -> 29
+	27 -> 200
+	27 -> 211
+	28 -> 5
+	28 -> 137
+	28 -> 241
+	28 -> 246
+	29 -> 0
+	30 -> 112
+	30 -> 169
+	30 -> 254
+	30 -> 258
+	30 -> 290
+	30 -> 326
+	31 -> 10
+	31 -> 33
+	31 -> 42
+	32 -> 25
+	32 -> 112
+	32 -> 255
+	32 -> 302
+	32 -> 309
+	33 -> 1
+	33 -> 45
+	34 -> 160
+	34 -> 162
+	34 -> 166
+	34 -> 169
+	34 -> 227
+	34 -> 228
+	34 -> 239
+	35 -> 11
+	35 -> 37
+	35 -> 42
+	36 -> 87
+	36 -> 190
+	36 -> 191
+	36 -> 299
+	37 -> 3
+	37 -> 45
+	38 -> 8
+	38 -> 41
+	38 -> 196
+	38 -> 201
+	38 -> 213
+	38 -> 223
+	39 -> 92
+	39 -> 93
+	39 -> 98
+	39 -> 196
+	40 -> 4
+	40 -> 45
+	41 -> 131
+	41 -> 139
+	42 -> 13
+	42 -> 45
+	43 -> 17
+	43 -> 313
+	44 -> 211
+	44 -> 214
+	45 -> 0
+	46 -> 6
+	46 -> 113
+	46 -> 130
+	47 -> 10
+	47 -> 48
+	47 -> 57
+	48 -> 1
+	48 -> 59
+	49 -> 115
+	49 -> 130
+	49 -> 192
+	50 -> 132
+	50 -> 265
+	50 -> 270
+	51 -> 136
+	51 -> 190
+	51 -> 192
+	51 -> 349
+	52 -> 3
+	52 -> 59
+	53 -> 8
+	53 -> 95
+	53 -> 168
+	53 -> 176
+	53 -> 234
+	53 -> 235
+	53 -> 238
+	53 -> 239
+	54 -> 58
+	54 -> 281
+	54 -> 285
+	55 -> 4
+	55 -> 59
+	56 -> 9
+	56 -> 59
+	57 -> 13
+	57 -> 59
+	58 -> 211
+	58 -> 216
+	59 -> 0
+	60 -> 25
+	60 -> 137
+	60 -> 303
+	60 -> 327
+	61 -> 64
+	61 -> 189
+	62 -> 285
+	62 -> 303
+	63 -> 64
+	63 -> 211
+	64 -> 222
+	65 -> 70
+	65 -> 252
+	66 -> 160
+	66 -> 165
+	66 -> 264
+	66 -> 272
+	66 -> 290
+	67 -> 193
+	67 -> 204
+	67 -> 266
+	67 -> 272
+	68 -> 87
+	68 -> 150
+	68 -> 152
+	68 -> 272
+	69 -> 3
+	69 -> 71
+	70 -> 298
+	70 -> 320
+	71 -> 0
+	72 -> 35
+	72 -> 74
+	72 -> 191
+	72 -> 202
+	72 -> 266
+	72 -> 294
+	72 -> 321
+	73 -> 15
+	73 -> 74
+	73 -> 162
+	73 -> 165
+	73 -> 311
+	74 -> 76
+	74 -> 268
+	75 -> 163
+	75 -> 165
+	75 -> 314
+	76 -> 278
+	76 -> 322
+	77 -> 54
+	77 -> 79
+	77 -> 81
+	77 -> 314
+	78 -> 62
+	78 -> 79
+	79 -> 82
+	79 -> 285
+	79 -> 321
+	80 -> 81
+	80 -> 231
+	81 -> 82
+	81 -> 83
+	81 -> 198
+	82 -> 200
+	82 -> 219
+	83 -> 59
+	83 -> 84
+	84 -> 0
+	85 -> 31
+	85 -> 86
+	85 -> 97
+	86 -> 33
+	86 -> 100
+	87 -> 26
+	87 -> 89
+	87 -> 301
+	88 -> 89
+	88 -> 163
+	88 -> 176
+	88 -> 315
+	88 -> 323
+	89 -> 278
+	89 -> 325
+	90 -> 54
+	90 -> 197
+	90 -> 282
+	91 -> 62
+	91 -> 282
+	92 -> 27
+	92 -> 199
+	92 -> 210
+	93 -> 40
+	93 -> 96
+	93 -> 100
+	94 -> 24
+	94 -> 197
+	95 -> 55
+	95 -> 96
+	95 -> 101
+	96 -> 4
+	96 -> 102
+	97 -> 42
+	97 -> 100
+	98 -> 44
+	98 -> 210
+	98 -> 212
+	99 -> 29
+	99 -> 102
+	100 -> 45
+	100 -> 102
+	101 -> 59
+	101 -> 102
+	102 -> 0
+	103 -> 47
+	103 -> 173
+	103 -> 348
+	103 -> 349
+	104 -> 106
+	104 -> 251
+	105 -> 65
+	105 -> 106
+	105 -> 182
+	105 -> 204
+	105 -> 205
+	105 -> 261
+	106 -> 108
+	106 -> 252
+	107 -> 205
+	107 -> 342
+	108 -> 13
+	109 -> 47
+	109 -> 111
+	109 -> 203
+	109 -> 336
+	109 -> 339
+	110 -> 65
+	110 -> 111
+	110 -> 133
+	110 -> 151
+	110 -> 152
+	110 -> 260
+	111 -> 10
+	111 -> 114
+	111 -> 134
+	112 -> 256
+	112 -> 260
+	112 -> 310
+	113 -> 48
+	113 -> 185
+	113 -> 215
+	114 -> 1
+	114 -> 144
+	115 -> 7
+	115 -> 125
+	115 -> 131
+	116 -> 35
+	116 -> 119
+	116 -> 150
+	116 -> 151
+	116 -> 228
+	117 -> 61
+	117 -> 188
+	117 -> 327
+	118 -> 67
+	118 -> 124
+	118 -> 133
+	118 -> 188
+	119 -> 11
+	119 -> 125
+	119 -> 134
+	120 -> 15
+	120 -> 121
+	120 -> 135
+	120 -> 191
+	120 -> 208
+	120 -> 273
+	120 -> 309
+	121 -> 37
+	121 -> 125
+	121 -> 139
+	122 -> 18
+	122 -> 140
+	122 -> 269
+	123 -> 52
+	123 -> 125
+	123 -> 141
+	124 -> 193
+	124 -> 194
+	124 -> 217
+	125 -> 3
+	125 -> 144
+	126 -> 54
+	126 -> 128
+	126 -> 136
+	126 -> 304
+	126 -> 316
+	127 -> 231
+	127 -> 232
+	128 -> 129
+	128 -> 198
+	128 -> 215
+	129 -> 200
+	129 -> 221
+	130 -> 56
+	130 -> 201
+	130 -> 215
+	131 -> 9
+	131 -> 144
+	132 -> 57
+	132 -> 134
+	132 -> 141
+	133 -> 70
+	133 -> 143
+	133 -> 295
+	134 -> 13
+	134 -> 144
+	135 -> 209
+	135 -> 221
+	136 -> 58
+	136 -> 138
+	136 -> 215
+	137 -> 63
+	137 -> 138
+	137 -> 142
+	138 -> 211
+	138 -> 221
+	139 -> 45
+	139 -> 144
+	140 -> 20
+	140 -> 215
+	141 -> 59
+	141 -> 144
+	142 -> 64
+	142 -> 221
+	143 -> 71
+	143 -> 144
+	144 -> 0
+	145 -> 147
+	145 -> 342
+	146 -> 67
+	146 -> 147
+	146 -> 275
+	147 -> 149
+	147 -> 189
+	148 -> 163
+	148 -> 275
+	149 -> 3
+	150 -> 3
+	150 -> 153
+	151 -> 134
+	151 -> 153
+	152 -> 153
+	152 -> 320
+	153 -> 0
+	154 -> 335
+	155 -> 85
+	155 -> 156
+	155 -> 171
+	156 -> 31
+	156 -> 157
+	156 -> 158
+	156 -> 172
+	157 -> 10
+	157 -> 159
+	157 -> 174
+	158 -> 33
+	158 -> 159
+	158 -> 175
+	159 -> 1
+	159 -> 180
+	160 -> 7
+	160 -> 167
+	160 -> 170
+	161 -> 50
+	161 -> 164
+	161 -> 166
+	161 -> 173
+	161 -> 296
+	161 -> 326
+	162 -> 37
+	162 -> 167
+	162 -> 175
+	163 -> 18
+	163 -> 164
+	164 -> 177
+	164 -> 271
+	164 -> 276
+	165 -> 76
+	165 -> 276
+	166 -> 125
+	166 -> 167
+	166 -> 179
+	167 -> 3
+	167 -> 180
+	168 -> 96
+	168 -> 178
+	169 -> 41
+	169 -> 170
+	169 -> 175
+	169 -> 179
+	170 -> 9
+	170 -> 180
+	171 -> 97
+	171 -> 172
+	171 -> 178
+	172 -> 42
+	172 -> 174
+	172 -> 175
+	173 -> 57
+	173 -> 174
+	173 -> 177
+	174 -> 13
+	174 -> 180
+	175 -> 45
+	175 -> 180
+	176 -> 101
+	176 -> 177
+	176 -> 178
+	177 -> 59
+	177 -> 180
+	178 -> 102
+	178 -> 180
+	179 -> 144
+	179 -> 180
+	180 -> 0
+	181 -> 183
+	181 -> 202
+	181 -> 335
+	181 -> 336
+	182 -> 10
+	182 -> 186
+	182 -> 207
+	183 -> 86
+	183 -> 184
+	183 -> 212
+	184 -> 33
+	184 -> 186
+	184 -> 214
+	185 -> 114
+	185 -> 186
+	185 -> 221
+	186 -> 1
+	186 -> 222
+	187 -> 50
+	187 -> 188
+	187 -> 203
+	187 -> 269
+	188 -> 206
+	188 -> 265
+	188 -> 266
+	188 -> 273
+	189 -> 11
+	189 -> 195
+	189 -> 207
+	190 -> 26
+	190 -> 195
+	190 -> 211
+	191 -> 268
+	191 -> 277
+	191 -> 312
+	192 -> 123
+	192 -> 194
+	192 -> 215
+	193 -> 69
+	193 -> 195
+	193 -> 218
+	194 -> 125
+	194 -> 195
+	194 -> 221
+	195 -> 3
+	195 -> 222
+	196 -> 40
+	196 -> 200
+	196 -> 214
+	197 -> 95
+	197 -> 281
+	197 -> 283
+	197 -> 315
+	198 -> 55
+	198 -> 200
+	198 -> 216
+	199 -> 96
+	199 -> 200
+	199 -> 220
+	200 -> 4
+	200 -> 222
+	201 -> 131
+	201 -> 221
+	202 -> 42
+	202 -> 207
+	202 -> 214
+	203 -> 132
+	203 -> 206
+	203 -> 215
+	204 -> 70
+	204 -> 218
+	204 -> 297
+	205 -> 108
+	205 -> 207
+	206 -> 134
+	206 -> 207
+	206 -> 221
+	207 -> 13
+	207 -> 222
+	208 -> 43
+	208 -> 209
+	208 -> 312
+	209 -> 17
+	209 -> 222
+	210 -> 99
+	210 -> 211
+	210 -> 220
+	211 -> 29
+	211 -> 222
+	212 -> 100
+	212 -> 214
+	212 -> 220
+	213 -> 139
+	213 -> 214
+	213 -> 221
+	214 -> 45
+	214 -> 222
+	215 -> 141
+	215 -> 216
+	215 -> 221
+	216 -> 59
+	216 -> 222
+	217 -> 143
+	217 -> 218
+	217 -> 221
+	218 -> 71
+	218 -> 222
+	219 -> 84
+	219 -> 222
+	220 -> 102
+	220 -> 222
+	221 -> 144
+	221 -> 222
+	222 -> 0
+	223 -> 129
+	223 -> 225
+	224 -> 217
+	224 -> 225
+	225 -> 221
+	226 -> 49
+	226 -> 227
+	226 -> 238
+	226 -> 243
+	227 -> 115
+	227 -> 229
+	227 -> 240
+	228 -> 121
+	228 -> 229
+	228 -> 242
+	229 -> 125
+	229 -> 247
+	230 -> 39
+	230 -> 235
+	230 -> 236
+	230 -> 241
+	230 -> 242
+	231 -> 24
+	231 -> 233
+	232 -> 128
+	232 -> 233
+	232 -> 243
+	233 -> 198
+	233 -> 234
+	233 -> 236
+	233 -> 244
+	234 -> 55
+	234 -> 237
+	234 -> 245
+	235 -> 96
+	235 -> 237
+	236 -> 200
+	236 -> 237
+	236 -> 248
+	237 -> 4
+	237 -> 249
+	238 -> 56
+	238 -> 240
+	238 -> 245
+	239 -> 170
+	239 -> 240
+	240 -> 9
+	240 -> 249
+	241 -> 211
+	241 -> 248
+	242 -> 45
+	242 -> 249
+	243 -> 215
+	243 -> 244
+	243 -> 246
+	244 -> 216
+	244 -> 245
+	244 -> 248
+	245 -> 59
+	245 -> 249
+	246 -> 221
+	246 -> 247
+	246 -> 248
+	247 -> 144
+	247 -> 249
+	248 -> 222
+	248 -> 249
+	249 -> 0
+	250 -> 155
+	250 -> 251
+	250 -> 253
+	250 -> 292
+	251 -> 156
+	251 -> 252
+	251 -> 254
+	251 -> 293
+	252 -> 10
+	252 -> 262
+	252 -> 298
+	253 -> 86
+	253 -> 256
+	253 -> 308
+	254 -> 158
+	254 -> 256
+	254 -> 311
+	255 -> 184
+	255 -> 256
+	255 -> 261
+	255 -> 312
+	256 -> 33
+	256 -> 262
+	256 -> 313
+	257 -> 46
+	257 -> 258
+	257 -> 259
+	257 -> 288
+	258 -> 6
+	258 -> 260
+	258 -> 289
+	259 -> 185
+	259 -> 260
+	259 -> 261
+	259 -> 328
+	260 -> 114
+	260 -> 262
+	260 -> 329
+	261 -> 186
+	261 -> 262
+	261 -> 332
+	262 -> 1
+	262 -> 333
+	263 -> 49
+	263 -> 264
+	263 -> 269
+	263 -> 288
+	264 -> 7
+	264 -> 278
+	264 -> 291
+	265 -> 119
+	265 -> 267
+	265 -> 274
+	265 -> 295
+	266 -> 189
+	266 -> 267
+	266 -> 277
+	266 -> 297
+	267 -> 11
+	267 -> 278
+	267 -> 298
+	268 -> 37
+	268 -> 278
+	268 -> 313
+	269 -> 192
+	269 -> 270
+	269 -> 273
+	269 -> 316
+	270 -> 123
+	270 -> 271
+	270 -> 274
+	270 -> 317
+	271 -> 52
+	271 -> 278
+	271 -> 319
+	272 -> 69
+	272 -> 278
+	272 -> 320
+	273 -> 194
+	273 -> 274
+	273 -> 277
+	273 -> 328
+	274 -> 125
+	274 -> 278
+	274 -> 329
+	275 -> 149
+	275 -> 278
+	276 -> 167
+	276 -> 278
+	276 -> 330
+	277 -> 195
+	277 -> 278
+	277 -> 332
+	278 -> 3
+	278 -> 333
+	279 -> 39
+	279 -> 280
+	279 -> 282
+	279 -> 299
+	280 -> 93
+	280 -> 284
+	280 -> 308
+	281 -> 198
+	281 -> 286
+	281 -> 318
+	282 -> 92
+	282 -> 283
+	282 -> 285
+	282 -> 300
+	283 -> 199
+	283 -> 284
+	283 -> 286
+	283 -> 324
+	284 -> 96
+	284 -> 287
+	284 -> 325
+	285 -> 27
+	285 -> 286
+	285 -> 305
+	286 -> 200
+	286 -> 287
+	286 -> 332
+	287 -> 4
+	287 -> 333
+	288 -> 130
+	288 -> 289
+	288 -> 316
+	289 -> 131
+	289 -> 291
+	289 -> 329
+	290 -> 170
+	290 -> 291
+	290 -> 330
+	291 -> 9
+	291 -> 333
+	292 -> 171
+	292 -> 293
+	292 -> 308
+	292 -> 323
+	293 -> 172
+	293 -> 294
+	293 -> 296
+	293 -> 311
+	294 -> 42
+	294 -> 298
+	294 -> 313
+	295 -> 134
+	295 -> 298
+	295 -> 329
+	296 -> 174
+	296 -> 298
+	296 -> 330
+	297 -> 207
+	297 -> 298
+	297 -> 332
+	298 -> 13
+	298 -> 333
+	299 -> 98
+	299 -> 300
+	299 -> 302
+	299 -> 307
+	300 -> 210
+	300 -> 301
+	300 -> 305
+	300 -> 324
+	301 -> 99
+	301 -> 306
+	301 -> 325
+	302 -> 44
+	302 -> 305
+	302 -> 312
+	303 -> 63
+	303 -> 305
+	303 -> 331
+	304 -> 138
+	304 -> 305
+	304 -> 328
+	305 -> 211
+	305 -> 306
+	305 -> 332
+	306 -> 29
+	306 -> 333
+	307 -> 212
+	307 -> 308
+	307 -> 312
+	307 -> 324
+	308 -> 100
+	308 -> 313
+	308 -> 325
+	309 -> 213
+	309 -> 310
+	309 -> 312
+	309 -> 328
+	310 -> 139
+	310 -> 313
+	310 -> 329
+	311 -> 175
+	311 -> 313
+	311 -> 330
+	312 -> 214
+	312 -> 313
+	312 -> 332
+	313 -> 45
+	313 -> 333
+	314 -> 83
+	314 -> 319
+	314 -> 322
+	315 -> 101
+	315 -> 319
+	315 -> 325
+	316 -> 215
+	316 -> 317
+	316 -> 318
+	316 -> 328
+	317 -> 141
+	317 -> 319
+	317 -> 329
+	318 -> 216
+	318 -> 319
+	318 -> 332
+	319 -> 59
+	319 -> 333
+	320 -> 71
+	320 -> 333
+	321 -> 219
+	321 -> 322
+	321 -> 332
+	322 -> 84
+	322 -> 333
+	323 -> 178
+	323 -> 325
+	323 -> 330
+	324 -> 220
+	324 -> 325
+	324 -> 332
+	325 -> 102
+	325 -> 333
+	326 -> 179
+	326 -> 329
+	326 -> 330
+	327 -> 142
+	327 -> 328
+	327 -> 331
+	328 -> 221
+	328 -> 329
+	328 -> 332
+	329 -> 144
+	329 -> 333
+	330 -> 180
+	330 -> 333
+	331 -> 64
+	331 -> 332
+	332 -> 222
+	332 -> 333
+	333 -> 0
+	334 -> 155
+	334 -> 335
+	335 -> 85
+	335 -> 337
+	336 -> 182
+	336 -> 337
+	336 -> 340
+	336 -> 343
+	337 -> 10
+	337 -> 341
+	337 -> 344
+	338 -> 46
+	338 -> 339
+	339 -> 113
+	339 -> 340
+	340 -> 186
+	340 -> 341
+	340 -> 345
+	341 -> 1
+	341 -> 346
+	342 -> 61
+	342 -> 343
+	343 -> 207
+	343 -> 344
+	343 -> 345
+	344 -> 13
+	344 -> 346
+	345 -> 222
+	345 -> 346
+	346 -> 0
+	347 -> 155
+	347 -> 348
+	348 -> 157
+	348 -> 350
+	349 -> 59
+	349 -> 350
+	350 -> 0
+}

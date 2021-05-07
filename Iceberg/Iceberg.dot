@@ -1,0 +1,40 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 58)||}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 0, E: 0)|Year=2002/2008\nYear=2014/2018\nYear=2019/2023\nFWK/Pattern=Support (CI)\nFWK/Pattern=Support (MFI)\nFWK/Pattern=Uncertain (EFI)\nFWK/Pattern=Uncertain (PFI)\nFWK/Pattern=Utility (HAUI)\nFWK/Pattern=Utility (HUI)\nApproach=Hybrid\nApproach=Other\nWindow=Decay\nWindow=Titled\nWindow=FsW/TimeSW\nWindow=VsW/TransSW\nAccuracy = Approximative\nAccuracy = False-Negative\nAccuracy = False-Positive\nCitation=Très bas [0-10]\nCitation=Bas [11-20]\nCitation=Haut [201-500]\nCitation=Très haut >500\n|}"];
+2 [shape=record,style=filled,fillcolor=orange,label="{2 (I: 0, E: 25)|Year= 2009/2013\n|IHUP\nMFI-TransSw\nMFI-TimeSW\nFCDT\nStreamFCI\npWIn\nFEMP\n}"];
+3 [shape=record,style=filled,fillcolor=orange,label="{3 (I: 0, E: 20)|FWK/Pattern=Support (FI)\n|Lossy Counting\nFP-Stream\nestDec\nFDPM\nDSM-FI\nFUFP-Tree\nPre-FUFP\nTDUP\nSWM\nPFP\nDSTree\nSWIM\nCPS-tree\nMFI-TransSw\nMFI-TimeSW\nSUF-Growth\nVSW\nSWP-Tree\nLDS\npWIn\n}"];
+4 [shape=record,style=filled,fillcolor=orange,label="{4 (I: 0, E: 19)|Approach=Apriori\n|Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nPre-FUFP\nestMax\nFUP-HU\nPre-HUI\nTDUP\nPIHUP\nSWM\nTHUI-Mine\nInemine\nFCDT\nMAX-FISM\npWIn\nConPatSet\n}"];
+5 [shape=record,style=filled,fillcolor=orange,label="{5 (I: 0, E: 24)|Approach=FP-Growth\n|FP-Stream\nTUF-Streaming\nUHS-Stream\nTFUHS-Stream\nFCIMining\nUF-Streaming\nSWP-Tree\n}"];
+6 [shape=record,style=filled,fillcolor=orange,label="{6 (I: 0, E: 17)|Window=Landmark\n|Lossy Counting\nestDec\nFDPM\nDSM-FI\nINSTANT\nFUFP-Tree\nTUF-Streaming\nGUIDE\nFUP-HU\nTFUHS-Stream\nPre-HUI\nHUPID\nFCIMining\nTDUP\nLIHUP\nMPM\nPIHUP\n}"];
+7 [shape=record,style=filled,fillcolor=orange,label="{7 (I: 0, E: 27)|Window=FsW/TransSW\n|PFP\nInemine\nFCDT\nSWP-Tree\npWIn\n}"];
+8 [shape=record,style=filled,fillcolor=orange,label="{8 (I: 0, E: 17)||HUPID\nGENHUI\nIMHAUI\nMPM\nMoment\nDSTree\nCFI-Stream\nNewMoment\nCPS-tree\nIHUP\nClostream\nStreamFCI\nTmoment\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\n}"];
+9 [shape=record,style=filled,fillcolor=orange,label="{9 (I: 0, E: 22)||IIHUM\nMoment\nDSTree\nCFI-Stream\nTHUI-Mine\nMHUI\nNewMoment\nCPS-tree\nIHUP\nClostream\nVSW\nLDS\nMAX-FISM\nStreamFCI\nTmoment\nFEMP\nUDS-FIM\nSHU-Growth\nSHAU\nPFIMoS\nConPatSet\nRMFIsM\n}"];
+10 [shape=record,style=filled,fillcolor=orange,label="{10 (I: 0, E: 38)|Accuracy = Exact\n|FUFP-Tree\nPIHUP\nMFI-TransSw\nMFI-TimeSW\n}"];
+11 [shape=record,style=filled,fillcolor=orange,label="{11 (I: 0, E: 18)||Pre-FUFP\nestMax\nCLICI\nTUF-Streaming\nGUIDE\nFUP-HU\nUHS-Stream\nTFUHS-Stream\nNewMoment\nCPS-tree\nUF-Streaming\nClostream\nSUF-Growth\nVSW\nSWP-Tree\nLDS\nMAX-FISM\nTmoment\n}"];
+12 [shape=record,style=filled,fillcolor=orange,label="{12 (I: 0, E: 22)||INSTANT\nPre-FUFP\nFUP-HU\nPre-HUI\nHUPID\nHUI-LIST-INS\nGENHUI\nLIHUP\nMPM\nCFI-Stream\nTHUI-Mine\nMHUI\nSWIM\nNewMoment\nCPS-tree\nClostream\nSUF-Growth\nVSW\nLDS\nMAX-FISM\nTmoment\nSHU-Growth\n}"];
+13 [shape=record,style=filled,fillcolor=orange,label="{13 (I: 0, E: 35)|Citation=Moyen[21-200]\n|DSM-FI\nTDUP\nSWM\nPFP\nInemine\n}"];
+	1 -> 3
+	1 -> 4
+	1 -> 6
+	1 -> 8
+	1 -> 9
+	1 -> 11
+	1 -> 12
+	2 -> 0
+	3 -> 0
+	4 -> 0
+	5 -> 0
+	6 -> 0
+	7 -> 0
+	8 -> 5
+	8 -> 10
+	9 -> 7
+	9 -> 10
+	10 -> 0
+	11 -> 2
+	11 -> 13
+	12 -> 10
+	12 -> 13
+	13 -> 0
+}
