@@ -1,0 +1,119 @@
+<  1> Accuracy = Exact,Citation=Très haut >500 => Year= 2009/2013,FWK/Pattern=Utility (HUI),Approach=FP-Growth,Window=FsW/TransSW
+<  1> Accuracy = False-Positive,Citation=Haut [201-500] => Year=2002/2008,FWK/Pattern=Support (FI),Approach=Apriori,Window=Landmark
+<  1> Accuracy = False-Negative => Year=2002/2008,FWK/Pattern=Support (FI),Approach=Apriori,Window=Landmark,Citation=Haut [201-500]
+<  1> Accuracy = Approximative,Citation=Bas [11-20] => Year= 2009/2013,FWK/Pattern=Support (FI),Approach=Apriori,Window=FsW/TransSW
+<  1> Window=FsW/TransSW,Citation=Très haut >500 => Year= 2009/2013,FWK/Pattern=Utility (HUI),Approach=FP-Growth,Accuracy = Exact
+<  1> Window=Titled => Year=2002/2008,FWK/Pattern=Support (FI),Approach=FP-Growth,Accuracy = False-Positive,Citation=Très haut >500
+<  1> Window=Landmark,Citation=Très haut >500 => Year=2002/2008,FWK/Pattern=Support (FI),Approach=Apriori,Accuracy = False-Positive
+<  1> Window=Landmark,Accuracy = Approximative => Year= 2009/2013,FWK/Pattern=Utility (HUI),Approach=Other,Citation=Moyen[21-200]
+<  1> Window=Decay,Citation=Bas [11-20] => Year=2014/2018,FWK/Pattern=Utility (HAUI),Approach=FP-Growth,Accuracy = Exact
+<  1> Approach=Other,Accuracy = False-Positive => Year= 2009/2013,FWK/Pattern=Support (CI),Window=Decay,Citation=Moyen[21-200]
+<  1> Approach=Other,Window=Landmark => Year= 2009/2013,FWK/Pattern=Utility (HUI),Accuracy = Approximative,Citation=Moyen[21-200]
+<  1> Approach=Other,Window=Decay => Year= 2009/2013,FWK/Pattern=Support (CI),Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> Approach=Hybrid,Accuracy = Exact,Citation=Bas [11-20] => Year=2019/2023,FWK/Pattern=Utility (HUI),Window=FsW/TransSW
+<  1> Approach=Hybrid,Window=Landmark,Accuracy = Exact => Year=2014/2018,FWK/Pattern=Utility (HUI),Citation=Moyen[21-200]
+<  1> Approach=Hybrid,Window=Decay,Accuracy = Exact => Year=2014/2018,FWK/Pattern=Utility (HUI),Citation=Moyen[21-200]
+<  1> Approach=FP-Growth,Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => Year=2014/2018,FWK/Pattern=Uncertain (EFI)
+<  1> Approach=FP-Growth,Window=FsW/TransSW,Accuracy = False-Positive => Year= 2009/2013,FWK/Pattern=Support (FI),Citation=Moyen[21-200]
+<  1> Approach=Apriori,Citation=Très haut >500 => Year=2002/2008,FWK/Pattern=Support (FI),Window=Landmark,Accuracy = False-Positive
+<  1> Approach=Apriori,Accuracy = Exact,Citation=Bas [11-20] => Year=2014/2018,FWK/Pattern=Utility (HUI),Window=Landmark
+<  1> Approach=Apriori,Accuracy = Approximative => Year= 2009/2013,FWK/Pattern=Support (FI),Window=FsW/TransSW,Citation=Bas [11-20]
+<  1> Approach=Apriori,Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => Year=2014/2018,FWK/Pattern=Support (CI)
+<  1> FWK/Pattern=Utility (HUI),Citation=Très haut >500 => Year= 2009/2013,Approach=FP-Growth,Window=FsW/TransSW,Accuracy = Exact
+<  1> FWK/Pattern=Utility (HUI),Accuracy = Approximative => Year= 2009/2013,Approach=Other,Window=Landmark,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Utility (HUI),Window=FsW/TransSW,Accuracy = Exact,Citation=Bas [11-20] => Year=2019/2023,Approach=Hybrid
+<  1> FWK/Pattern=Utility (HUI),Approach=Other => Year= 2009/2013,Window=Landmark,Accuracy = Approximative,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Utility (HUI),Approach=Hybrid,Window=FsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => Year=2002/2008
+<  1> FWK/Pattern=Utility (HUI),Approach=Apriori,Window=FsW/TransSW,Accuracy = Exact => Year=2002/2008,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Uncertain (PFI),Window=FsW/TransSW,Accuracy = Exact,Citation=Bas [11-20] => Year=2014/2018,Approach=FP-Growth
+<  1> FWK/Pattern=Uncertain (PFI),Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => Year= 2009/2013,Approach=Other
+<  1> FWK/Pattern=Uncertain (PFI),Approach=Other,Window=FsW/TransSW,Accuracy = Exact => Year= 2009/2013,Citation=Très bas [0-10]
+<  1> FWK/Pattern=Uncertain (PFI),Approach=FP-Growth,Window=FsW/TransSW,Accuracy = Exact => Year=2014/2018,Citation=Bas [11-20]
+<  1> FWK/Pattern=Uncertain (EFI),Approach=FP-Growth,Window=Decay => Year= 2009/2013,Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (MFI),Accuracy = False-Positive => Year= 2009/2013,Approach=Apriori,Window=Decay,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (MFI),Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => Year=2019/2023,Approach=Other
+<  1> FWK/Pattern=Support (MFI),Window=Landmark => Year=2002/2008,Approach=Apriori,Accuracy = Exact,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (MFI),Window=Decay => Year= 2009/2013,Approach=Apriori,Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (MFI),Approach=Other => Year=2019/2023,Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10]
+<  1> FWK/Pattern=Support (MFI),Approach=Apriori,Window=FsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => Year= 2009/2013
+<  1> FWK/Pattern=Support (FI),Citation=Bas [11-20] => Year= 2009/2013,Approach=Apriori,Window=FsW/TransSW,Accuracy = Approximative
+<  1> FWK/Pattern=Support (FI),Window=FsW/TransSW,Accuracy = False-Positive => Year= 2009/2013,Approach=FP-Growth,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (FI),Window=FsW/TimeSW,Citation=Haut [201-500] => Year= 2009/2013,Approach=Hybrid,Accuracy = Exact
+<  1> FWK/Pattern=Support (FI),Window=FsW/TimeSW,Accuracy = False-Positive => Year=2002/2008,Approach=Apriori,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (FI),Window=Decay => Year= 2009/2013,Approach=Apriori,Accuracy = Exact,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (FI),Approach=Other,Window=FsW/TransSW,Accuracy = Approximative,Citation=Moyen[21-200] => Year=2002/2008
+<  1> FWK/Pattern=Support (FI),Approach=Apriori,Accuracy = Exact,Citation=Moyen[21-200] => Year= 2009/2013,Window=Decay
+<  1> FWK/Pattern=Support (FI),Approach=Apriori,Window=FsW/TransSW => Year= 2009/2013,Accuracy = Approximative,Citation=Bas [11-20]
+<  1> FWK/Pattern=Support (FI),Approach=Apriori,Window=FsW/TimeSW => Year=2002/2008,Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (FI),Approach=Apriori,Window=Landmark,Accuracy = Exact => Year=2002/2008,Citation=Haut [201-500]
+<  1> FWK/Pattern=Support (CI),Citation=Haut [201-500] => Year=2002/2008,Approach=FP-Growth,Window=FsW/TransSW,Accuracy = Exact
+<  1> FWK/Pattern=Support (CI),Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => Year=2014/2018,Approach=Apriori
+<  1> FWK/Pattern=Support (CI),Window=Landmark => Year=2014/2018,Approach=FP-Growth,Accuracy = False-Positive,Citation=Bas [11-20]
+<  1> FWK/Pattern=Support (CI),Window=Decay => Year= 2009/2013,Approach=Other,Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (CI),Approach=Other => Year= 2009/2013,Window=Decay,Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> FWK/Pattern=Support (CI),Approach=FP-Growth,Accuracy = False-Positive => Year=2014/2018,Window=Landmark,Citation=Bas [11-20]
+<  1> FWK/Pattern=Support (CI),Approach=Apriori,Window=FsW/TransSW,Citation=Moyen[21-200] => Year=2002/2008,Accuracy = False-Positive
+<  1> FWK/Pattern=Support (CI),Approach=Apriori,Window=FsW/TransSW,Accuracy = Exact => Year=2014/2018,Citation=Très bas [0-10]
+<  1> Year=2019/2023,Window=FsW/TransSW,Accuracy = Exact,Citation=Bas [11-20] => FWK/Pattern=Utility (HUI),Approach=Hybrid
+<  1> Year=2019/2023,Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => FWK/Pattern=Support (MFI),Approach=Other
+<  1> Year=2019/2023,Approach=Other,Window=FsW/TransSW,Accuracy = Exact => FWK/Pattern=Support (MFI),Citation=Très bas [0-10]
+<  1> Year=2019/2023,Approach=Hybrid,Window=FsW/TransSW,Accuracy = Exact => FWK/Pattern=Utility (HUI),Citation=Bas [11-20]
+<  1> Year=2019/2023,FWK/Pattern=Utility (HUI),Window=FsW/TransSW,Accuracy = Exact => Approach=Hybrid,Citation=Bas [11-20]
+<  1> Year=2019/2023,FWK/Pattern=Support (MFI),Window=FsW/TransSW,Accuracy = Exact => Approach=Other,Citation=Très bas [0-10]
+<  1> Year=2014/2018,Window=FsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => FWK/Pattern=Utility (HUI),Approach=FP-Growth
+<  1> Year=2014/2018,Window=Landmark,Accuracy = Exact,Citation=Bas [11-20] => FWK/Pattern=Utility (HUI),Approach=Apriori
+<  1> Year=2014/2018,Window=Landmark,Accuracy = False-Positive,Citation=Moyen[21-200] => FWK/Pattern=Support (FI),Approach=Apriori
+<  1> Year=2014/2018,Approach=FP-Growth,Window=Landmark,Citation=Bas [11-20] => FWK/Pattern=Support (CI),Accuracy = False-Positive
+<  1> Year=2014/2018,Approach=FP-Growth,Window=Landmark,Accuracy = False-Positive => FWK/Pattern=Support (CI),Citation=Bas [11-20]
+<  1> Year=2014/2018,Approach=Apriori,Citation=Bas [11-20] => FWK/Pattern=Utility (HUI),Window=Landmark,Accuracy = Exact
+<  1> Year=2014/2018,Approach=Apriori,Window=FsW/TransSW,Accuracy = Exact => FWK/Pattern=Support (CI),Citation=Très bas [0-10]
+<  1> Year=2014/2018,FWK/Pattern=Utility (HUI),Accuracy = Exact,Citation=Bas [11-20] => Approach=Apriori,Window=Landmark
+<  1> Year=2014/2018,FWK/Pattern=Utility (HUI),Window=FsW/TransSW,Accuracy = Exact => Approach=FP-Growth,Citation=Moyen[21-200]
+<  1> Year=2014/2018,FWK/Pattern=Utility (HAUI),Approach=FP-Growth,Accuracy = Exact,Citation=Moyen[21-200] => Window=Landmark
+<  1> Year=2014/2018,FWK/Pattern=Utility (HAUI),Approach=FP-Growth,Window=FsW/TransSW,Accuracy = Exact => Citation=Bas [11-20]
+<  1> Year=2014/2018,FWK/Pattern=Utility (HAUI),Approach=FP-Growth,Window=Decay,Accuracy = Exact => Citation=Bas [11-20]
+<  1> Year=2014/2018,FWK/Pattern=Uncertain (PFI),Window=FsW/TransSW,Accuracy = Exact => Approach=FP-Growth,Citation=Bas [11-20]
+<  1> Year=2014/2018,FWK/Pattern=Uncertain (EFI),Approach=FP-Growth => Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10]
+<  1> Year=2014/2018,FWK/Pattern=Support (FI) => Approach=Apriori,Window=Landmark,Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> Year=2014/2018,FWK/Pattern=Support (CI),Citation=Bas [11-20] => Approach=FP-Growth,Window=Landmark,Accuracy = False-Positive
+<  1> Year=2014/2018,FWK/Pattern=Support (CI),Window=FsW/TransSW,Accuracy = Exact => Approach=Apriori,Citation=Très bas [0-10]
+<  1> Year=2014/2018,FWK/Pattern=Support (CI),Approach=FP-Growth => Window=Landmark,Accuracy = False-Positive,Citation=Bas [11-20]
+<  1> Year= 2009/2013,Citation=Très haut >500 => FWK/Pattern=Utility (HUI),Approach=FP-Growth,Window=FsW/TransSW,Accuracy = Exact
+<  1> Year= 2009/2013,Window=VsW/TransSW,Accuracy = False-Positive => FWK/Pattern=Uncertain (EFI),Approach=FP-Growth,Citation=Moyen[21-200]
+<  1> Year= 2009/2013,Window=FsW/TransSW,Accuracy = Exact,Citation=Bas [11-20] => FWK/Pattern=Support (CI),Approach=FP-Growth
+<  1> Year= 2009/2013,Window=FsW/TransSW,Accuracy = Exact,Citation=Très bas [0-10] => FWK/Pattern=Uncertain (PFI),Approach=Other
+<  1> Year= 2009/2013,Window=FsW/TransSW,Accuracy = False-Positive,Citation=Moyen[21-200] => FWK/Pattern=Support (FI),Approach=FP-Growth
+<  1> Year= 2009/2013,Window=Landmark,Accuracy = Exact,Citation=Moyen[21-200] => FWK/Pattern=Utility (HUI),Approach=Apriori
+<  1> Year= 2009/2013,Window=Decay,Accuracy = Exact,Citation=Moyen[21-200] => FWK/Pattern=Support (FI),Approach=Apriori
+<  1> Year= 2009/2013,Approach=Other,Accuracy = Approximative,Citation=Moyen[21-200] => FWK/Pattern=Utility (HUI),Window=Landmark
+<  1> Year= 2009/2013,Approach=Other,Window=VsW/TransSW => FWK/Pattern=Support (FI),Accuracy = Exact,Citation=Moyen[21-200]
+<  1> Year= 2009/2013,Approach=FP-Growth,Window=VsW/TransSW => FWK/Pattern=Uncertain (EFI),Accuracy = False-Positive,Citation=Moyen[21-200]
+<  1> Year= 2009/2013,Approach=FP-Growth,Window=Decay,Citation=Moyen[21-200] => FWK/Pattern=Uncertain (EFI),Accuracy = False-Positive
+<  1> Year= 2009/2013,Approach=Apriori,Accuracy = False-Positive,Citation=Moyen[21-200] => FWK/Pattern=Support (MFI),Window=Decay
+<  1> Year= 2009/2013,Approach=Apriori,Window=FsW/TransSW,Citation=Moyen[21-200] => FWK/Pattern=Support (MFI),Accuracy = Exact
+<  1> Year= 2009/2013,Approach=Apriori,Window=Landmark,Citation=Moyen[21-200] => FWK/Pattern=Utility (HUI),Accuracy = Exact
+<  1> Year= 2009/2013,FWK/Pattern=Utility (HUI),Window=FsW/TransSW,Accuracy = Exact => Approach=FP-Growth,Citation=Très haut >500
+<  1> Year= 2009/2013,FWK/Pattern=Uncertain (PFI),Window=FsW/TransSW,Accuracy = Exact => Approach=Other,Citation=Très bas [0-10]
+<  1> Year= 2009/2013,FWK/Pattern=Support (MFI),Approach=Apriori,Accuracy = Exact,Citation=Moyen[21-200] => Window=FsW/TransSW
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Accuracy = False-Positive => Approach=FP-Growth,Window=FsW/TransSW,Citation=Moyen[21-200]
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Window=VsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => Approach=Other
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Window=FsW/TransSW,Accuracy = Approximative => Approach=Apriori,Citation=Bas [11-20]
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Window=FsW/TimeSW => Approach=Hybrid,Accuracy = Exact,Citation=Haut [201-500]
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Approach=Hybrid,Accuracy = Exact,Citation=Moyen[21-200] => Window=FsW/TransSW
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Approach=Hybrid,Window=VsW/TransSW,Accuracy = Exact => Citation=Haut [201-500]
+<  1> Year= 2009/2013,FWK/Pattern=Support (FI),Approach=Apriori,Citation=Moyen[21-200] => Window=Decay,Accuracy = Exact
+<  1> Year= 2009/2013,FWK/Pattern=Support (CI),Accuracy = False-Positive,Citation=Moyen[21-200] => Approach=Other,Window=Decay
+<  1> Year= 2009/2013,FWK/Pattern=Support (CI),Approach=Apriori,Window=FsW/TransSW => Accuracy = False-Positive,Citation=Bas [11-20]
+<  1> Year=2002/2008,Accuracy = Approximative => FWK/Pattern=Support (FI),Approach=Other,Window=FsW/TransSW,Citation=Moyen[21-200]
+<  1> Year=2002/2008,Window=FsW/TransSW,Accuracy = False-Positive => FWK/Pattern=Support (CI),Approach=Apriori,Citation=Moyen[21-200]
+<  1> Year=2002/2008,Approach=Hybrid,Accuracy = Exact => FWK/Pattern=Utility (HUI),Window=FsW/TransSW,Citation=Moyen[21-200]
+<  1> Year=2002/2008,Approach=FP-Growth,Citation=Moyen[21-200] => FWK/Pattern=Support (CI),Window=FsW/TransSW,Accuracy = Exact
+<  1> Year=2002/2008,Approach=FP-Growth,Accuracy = False-Positive => FWK/Pattern=Support (FI),Window=Titled,Citation=Très haut >500
+<  1> Year=2002/2008,Approach=Apriori,Window=FsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => FWK/Pattern=Utility (HUI)
+<  1> Year=2002/2008,Approach=Apriori,Window=Landmark,Accuracy = Exact,Citation=Moyen[21-200] => FWK/Pattern=Support (MFI)
+<  1> Year=2002/2008,FWK/Pattern=Support (MFI) => Approach=Apriori,Window=Landmark,Accuracy = Exact,Citation=Moyen[21-200]
+<  1> Year=2002/2008,FWK/Pattern=Support (FI),Accuracy = Exact,Citation=Moyen[21-200] => Approach=Other,Window=FsW/TimeSW
+<  1> Year=2002/2008,FWK/Pattern=Support (FI),Window=FsW/TransSW,Citation=Moyen[21-200] => Approach=Other,Accuracy = Approximative
+<  1> Year=2002/2008,FWK/Pattern=Support (FI),Window=FsW/TransSW,Accuracy = Exact => Approach=FP-Growth,Citation=Haut [201-500]
+<  1> Year=2002/2008,FWK/Pattern=Support (FI),Approach=Other,Window=FsW/TimeSW,Citation=Moyen[21-200] => Accuracy = Exact
+<  1> Year=2002/2008,FWK/Pattern=Support (FI),Approach=Apriori,Accuracy = Exact => Window=Landmark,Citation=Haut [201-500]

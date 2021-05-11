@@ -1,0 +1,9 @@
+<  4> Citation=Très bas [0-10] => Window=FsW/TransSW,Accuracy = Exact
+<  4> Approach=Apriori,Window=Landmark,Accuracy = False-Positive => FWK/Pattern=Support (FI)
+<  4> FWK/Pattern=Utility (HUI),Approach=FP-Growth => Accuracy = Exact
+<  4> FWK/Pattern=Utility (HUI),Approach=Apriori => Accuracy = Exact
+<  4> FWK/Pattern=Uncertain (EFI),Approach=FP-Growth,Accuracy = False-Positive => Year= 2009/2013,Citation=Moyen[21-200]
+<  4> FWK/Pattern=Support (FI),Approach=Other => Citation=Moyen[21-200]
+<  4> Year=2014/2018,Approach=FP-Growth,Citation=Moyen[21-200] => Accuracy = Exact
+<  4> Year= 2009/2013,Window=Landmark => Citation=Moyen[21-200]
+<  4> Year= 2009/2013,Window=Decay => Citation=Moyen[21-200]

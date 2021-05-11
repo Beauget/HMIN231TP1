@@ -1,0 +1,5 @@
+<  6> FWK/Pattern=Uncertain (EFI) => Approach=FP-Growth
+<  6> FWK/Pattern=Support (FI),Window=Landmark => Approach=Apriori
+<  6> FWK/Pattern=Support (CI),Accuracy = Exact => Window=FsW/TransSW
+<  6> Year= 2009/2013,Approach=FP-Growth,Accuracy = Exact => Window=FsW/TransSW
+<  6> Year=2002/2008,Window=Landmark => Approach=Apriori

@@ -1,0 +1,2 @@
+<  7> Approach=Hybrid => Accuracy = Exact
+<  7> Year=2014/2018,FWK/Pattern=Utility (HUI) => Accuracy = Exact

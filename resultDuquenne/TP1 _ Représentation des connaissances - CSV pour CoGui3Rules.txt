@@ -1,0 +1,28 @@
+<  3> Window=VsW/TransSW => Year= 2009/2013
+<  3> Window=FsW/TimeSW => FWK/Pattern=Support (FI)
+<  3> Window=Landmark,Citation=Haut [201-500] => Year=2002/2008,FWK/Pattern=Support (FI),Approach=Apriori
+<  3> Window=Decay,Accuracy = False-Positive => Year= 2009/2013,Citation=Moyen[21-200]
+<  3> Approach=Other,Accuracy = Exact,Citation=Moyen[21-200] => FWK/Pattern=Support (FI)
+<  3> Approach=FP-Growth,Window=FsW/TransSW,Citation=Bas [11-20] => Accuracy = Exact
+<  3> Approach=Apriori,Citation=Haut [201-500] => Year=2002/2008,FWK/Pattern=Support (FI),Window=Landmark
+<  3> FWK/Pattern=Utility (HUI),Approach=FP-Growth,Accuracy = Exact,Citation=Moyen[21-200] => Year=2014/2018
+<  3> FWK/Pattern=Utility (HAUI) => Year=2014/2018,Approach=FP-Growth,Accuracy = Exact
+<  3> FWK/Pattern=Support (MFI),Citation=Moyen[21-200] => Approach=Apriori
+<  3> FWK/Pattern=Support (MFI),Approach=Apriori => Citation=Moyen[21-200]
+<  3> FWK/Pattern=Support (FI),Window=FsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => Year= 2009/2013
+<  3> FWK/Pattern=Support (FI),Approach=Hybrid,Accuracy = Exact => Year= 2009/2013
+<  3> FWK/Pattern=Support (CI),Window=FsW/TransSW,Accuracy = Exact,Citation=Moyen[21-200] => Approach=FP-Growth
+<  3> FWK/Pattern=Support (CI),Approach=FP-Growth,Citation=Moyen[21-200] => Window=FsW/TransSW,Accuracy = Exact
+<  3> FWK/Pattern=Support (CI),Approach=Apriori => Window=FsW/TransSW
+<  3> Year=2014/2018,Window=Decay => Accuracy = Exact
+<  3> Year=2014/2018,FWK/Pattern=Utility (HUI),Approach=FP-Growth,Accuracy = Exact => Citation=Moyen[21-200]
+<  3> Year= 2009/2013,Citation=Bas [11-20] => Window=FsW/TransSW
+<  3> Year= 2009/2013,Approach=Hybrid,Accuracy = Exact => FWK/Pattern=Support (FI)
+<  3> Year= 2009/2013,Approach=Apriori,Accuracy = Exact => Citation=Moyen[21-200]
+<  3> Year= 2009/2013,FWK/Pattern=Support (FI),Window=FsW/TransSW,Accuracy = Exact => Citation=Moyen[21-200]
+<  3> Year= 2009/2013,FWK/Pattern=Support (CI),Window=FsW/TransSW,Accuracy = Exact => Approach=FP-Growth
+<  3> Year= 2009/2013,FWK/Pattern=Support (CI),Approach=FP-Growth => Window=FsW/TransSW,Accuracy = Exact
+<  3> Year=2002/2008,Accuracy = False-Positive,Citation=Moyen[21-200] => Approach=Apriori
+<  3> Year=2002/2008,Approach=FP-Growth,Accuracy = Exact => Window=FsW/TransSW
+<  3> Year=2002/2008,Approach=FP-Growth,Window=FsW/TransSW => Accuracy = Exact
+<  3> Year=2002/2008,FWK/Pattern=Support (CI) => Window=FsW/TransSW
